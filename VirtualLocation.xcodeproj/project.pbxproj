@@ -15,9 +15,44 @@
 		8A9B50652282B3D70031A092 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B50642282B3D70031A092 /* main.m */; };
 		8A9B506F2282B3D70031A092 /* VirtualLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B506E2282B3D70031A092 /* VirtualLocationTests.m */; };
 		8A9B507A2282B3D70031A092 /* VirtualLocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B50792282B3D70031A092 /* VirtualLocationUITests.m */; };
-		8A9B50882282B6970031A092 /* location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B50872282B6970031A092 /* location.gpx */; };
 		8A9B508B2282D2CE0031A092 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B508A2282D2CE0031A092 /* WebViewController.m */; };
 		C71D38B8BF6EFAA7BF787D7A /* Pods_VirtualLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C15879676C804C450F1FF7 /* Pods_VirtualLocation.framework */; };
+		FE9FA82A228307C600BD502E /* 自建鼓.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA829228307C600BD502E /* 自建鼓.gpx */; };
+		FE9FA8592283084300BD502E /* 擂台-怡景园.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8352283084100BD502E /* 擂台-怡景园.gpx */; };
+		FE9FA8952283090200BD502E /* 鼓-的副本 20.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA873228308FF00BD502E /* 鼓-的副本 20.gpx */; };
+		FE9FA8962283090200BD502E /* 鼓-的副本 32.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA874228308FF00BD502E /* 鼓-的副本 32.gpx */; };
+		FE9FA8972283090200BD502E /* 鼓-的副本 11.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA875228308FF00BD502E /* 鼓-的副本 11.gpx */; };
+		FE9FA8982283090200BD502E /* 鼓-的副本 22.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA876228308FF00BD502E /* 鼓-的副本 22.gpx */; };
+		FE9FA8992283090200BD502E /* 鼓-的副本 26.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA877228308FF00BD502E /* 鼓-的副本 26.gpx */; };
+		FE9FA89A2283090200BD502E /* 鼓-的副本 6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA878228308FF00BD502E /* 鼓-的副本 6.gpx */; };
+		FE9FA89B2283090200BD502E /* 鼓-的副本 9.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA879228308FF00BD502E /* 鼓-的副本 9.gpx */; };
+		FE9FA89C2283090200BD502E /* 鼓-的副本 17.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA87A228308FF00BD502E /* 鼓-的副本 17.gpx */; };
+		FE9FA89D2283090200BD502E /* 鼓-的副本 16.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA87B228308FF00BD502E /* 鼓-的副本 16.gpx */; };
+		FE9FA89E2283090200BD502E /* 鼓-的副本 19.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA87C228308FF00BD502E /* 鼓-的副本 19.gpx */; };
+		FE9FA89F2283090200BD502E /* 鼓-的副本 27.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA87D228308FF00BD502E /* 鼓-的副本 27.gpx */; };
+		FE9FA8A02283090200BD502E /* 鼓-的副本 10.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA87E2283090000BD502E /* 鼓-的副本 10.gpx */; };
+		FE9FA8A12283090200BD502E /* 鼓-的副本 28.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA87F2283090000BD502E /* 鼓-的副本 28.gpx */; };
+		FE9FA8A22283090200BD502E /* 鼓-.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8802283090000BD502E /* 鼓-.gpx */; };
+		FE9FA8A32283090200BD502E /* 鼓-的副本 8.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8812283090000BD502E /* 鼓-的副本 8.gpx */; };
+		FE9FA8A42283090200BD502E /* 鼓-的副本 15.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8822283090000BD502E /* 鼓-的副本 15.gpx */; };
+		FE9FA8A52283090200BD502E /* 鼓-的副本.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8832283090000BD502E /* 鼓-的副本.gpx */; };
+		FE9FA8A62283090200BD502E /* 鼓-的副本 25.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8842283090100BD502E /* 鼓-的副本 25.gpx */; };
+		FE9FA8A72283090200BD502E /* 鼓-的副本 33.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8852283090100BD502E /* 鼓-的副本 33.gpx */; };
+		FE9FA8A82283090200BD502E /* 鼓-的副本 23.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8862283090100BD502E /* 鼓-的副本 23.gpx */; };
+		FE9FA8A92283090200BD502E /* 鼓-的副本 14.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8872283090100BD502E /* 鼓-的副本 14.gpx */; };
+		FE9FA8AA2283090200BD502E /* 鼓-的副本 4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8882283090100BD502E /* 鼓-的副本 4.gpx */; };
+		FE9FA8AB2283090200BD502E /* 鼓-的副本 13.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8892283090100BD502E /* 鼓-的副本 13.gpx */; };
+		FE9FA8AC2283090200BD502E /* 鼓-的副本 2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA88A2283090100BD502E /* 鼓-的副本 2.gpx */; };
+		FE9FA8AD2283090200BD502E /* 鼓-的副本 30.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA88B2283090100BD502E /* 鼓-的副本 30.gpx */; };
+		FE9FA8AE2283090200BD502E /* 鼓-的副本 24.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA88C2283090100BD502E /* 鼓-的副本 24.gpx */; };
+		FE9FA8AF2283090200BD502E /* 鼓-的副本 18.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA88D2283090100BD502E /* 鼓-的副本 18.gpx */; };
+		FE9FA8B02283090200BD502E /* 鼓-的副本 21.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA88E2283090200BD502E /* 鼓-的副本 21.gpx */; };
+		FE9FA8B12283090200BD502E /* 鼓-的副本 7.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA88F2283090200BD502E /* 鼓-的副本 7.gpx */; };
+		FE9FA8B22283090200BD502E /* 鼓-的副本 3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8902283090200BD502E /* 鼓-的副本 3.gpx */; };
+		FE9FA8B32283090200BD502E /* 鼓-的副本 31.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8912283090200BD502E /* 鼓-的副本 31.gpx */; };
+		FE9FA8B42283090200BD502E /* 鼓-的副本 12.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8922283090200BD502E /* 鼓-的副本 12.gpx */; };
+		FE9FA8B52283090200BD502E /* 鼓-的副本 5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8932283090200BD502E /* 鼓-的副本 5.gpx */; };
+		FE9FA8B62283090200BD502E /* 鼓-的副本 29.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE9FA8942283090200BD502E /* 鼓-的副本 29.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +90,46 @@
 		8A9B50752282B3D70031A092 /* VirtualLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9B50792282B3D70031A092 /* VirtualLocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualLocationUITests.m; sourceTree = "<group>"; };
 		8A9B507B2282B3D70031A092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A9B50872282B6970031A092 /* location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = location.gpx; sourceTree = "<group>"; };
 		8A9B50892282D2CE0031A092 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		8A9B508A2282D2CE0031A092 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		AC445BAB24772F4668C4B5CE /* Pods-VirtualLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualLocation/Pods-VirtualLocation.release.xcconfig"; sourceTree = "<group>"; };
 		DF697C075FF6806ABD0E07C7 /* Pods-VirtualLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualLocation/Pods-VirtualLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		FE9FA829228307C600BD502E /* 自建鼓.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "自建鼓.gpx"; sourceTree = "<group>"; };
+		FE9FA8352283084100BD502E /* 擂台-怡景园.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "擂台-怡景园.gpx"; sourceTree = "<group>"; };
+		FE9FA873228308FF00BD502E /* 鼓-的副本 20.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 20.gpx"; sourceTree = "<group>"; };
+		FE9FA874228308FF00BD502E /* 鼓-的副本 32.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 32.gpx"; sourceTree = "<group>"; };
+		FE9FA875228308FF00BD502E /* 鼓-的副本 11.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 11.gpx"; sourceTree = "<group>"; };
+		FE9FA876228308FF00BD502E /* 鼓-的副本 22.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 22.gpx"; sourceTree = "<group>"; };
+		FE9FA877228308FF00BD502E /* 鼓-的副本 26.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 26.gpx"; sourceTree = "<group>"; };
+		FE9FA878228308FF00BD502E /* 鼓-的副本 6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 6.gpx"; sourceTree = "<group>"; };
+		FE9FA879228308FF00BD502E /* 鼓-的副本 9.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 9.gpx"; sourceTree = "<group>"; };
+		FE9FA87A228308FF00BD502E /* 鼓-的副本 17.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 17.gpx"; sourceTree = "<group>"; };
+		FE9FA87B228308FF00BD502E /* 鼓-的副本 16.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 16.gpx"; sourceTree = "<group>"; };
+		FE9FA87C228308FF00BD502E /* 鼓-的副本 19.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 19.gpx"; sourceTree = "<group>"; };
+		FE9FA87D228308FF00BD502E /* 鼓-的副本 27.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 27.gpx"; sourceTree = "<group>"; };
+		FE9FA87E2283090000BD502E /* 鼓-的副本 10.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 10.gpx"; sourceTree = "<group>"; };
+		FE9FA87F2283090000BD502E /* 鼓-的副本 28.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 28.gpx"; sourceTree = "<group>"; };
+		FE9FA8802283090000BD502E /* 鼓-.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-.gpx"; sourceTree = "<group>"; };
+		FE9FA8812283090000BD502E /* 鼓-的副本 8.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 8.gpx"; sourceTree = "<group>"; };
+		FE9FA8822283090000BD502E /* 鼓-的副本 15.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 15.gpx"; sourceTree = "<group>"; };
+		FE9FA8832283090000BD502E /* 鼓-的副本.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本.gpx"; sourceTree = "<group>"; };
+		FE9FA8842283090100BD502E /* 鼓-的副本 25.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 25.gpx"; sourceTree = "<group>"; };
+		FE9FA8852283090100BD502E /* 鼓-的副本 33.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 33.gpx"; sourceTree = "<group>"; };
+		FE9FA8862283090100BD502E /* 鼓-的副本 23.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 23.gpx"; sourceTree = "<group>"; };
+		FE9FA8872283090100BD502E /* 鼓-的副本 14.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 14.gpx"; sourceTree = "<group>"; };
+		FE9FA8882283090100BD502E /* 鼓-的副本 4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 4.gpx"; sourceTree = "<group>"; };
+		FE9FA8892283090100BD502E /* 鼓-的副本 13.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 13.gpx"; sourceTree = "<group>"; };
+		FE9FA88A2283090100BD502E /* 鼓-的副本 2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 2.gpx"; sourceTree = "<group>"; };
+		FE9FA88B2283090100BD502E /* 鼓-的副本 30.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 30.gpx"; sourceTree = "<group>"; };
+		FE9FA88C2283090100BD502E /* 鼓-的副本 24.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 24.gpx"; sourceTree = "<group>"; };
+		FE9FA88D2283090100BD502E /* 鼓-的副本 18.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 18.gpx"; sourceTree = "<group>"; };
+		FE9FA88E2283090200BD502E /* 鼓-的副本 21.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 21.gpx"; sourceTree = "<group>"; };
+		FE9FA88F2283090200BD502E /* 鼓-的副本 7.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 7.gpx"; sourceTree = "<group>"; };
+		FE9FA8902283090200BD502E /* 鼓-的副本 3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 3.gpx"; sourceTree = "<group>"; };
+		FE9FA8912283090200BD502E /* 鼓-的副本 31.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 31.gpx"; sourceTree = "<group>"; };
+		FE9FA8922283090200BD502E /* 鼓-的副本 12.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 12.gpx"; sourceTree = "<group>"; };
+		FE9FA8932283090200BD502E /* 鼓-的副本 5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 5.gpx"; sourceTree = "<group>"; };
+		FE9FA8942283090200BD502E /* 鼓-的副本 29.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "鼓-的副本 29.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +198,7 @@
 				8A9B50592282B3C90031A092 /* ViewController.m */,
 				8A9B50892282D2CE0031A092 /* WebViewController.h */,
 				8A9B508A2282D2CE0031A092 /* WebViewController.m */,
-				8A9B50872282B6970031A092 /* location.gpx */,
+				FE9FA828228307C600BD502E /* locations */,
 				8A9B505B2282B3C90031A092 /* Main.storyboard */,
 				8A9B505E2282B3D70031A092 /* Assets.xcassets */,
 				8A9B50602282B3D70031A092 /* LaunchScreen.storyboard */,
@@ -162,6 +232,49 @@
 				47C15879676C804C450F1FF7 /* Pods_VirtualLocation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE9FA828228307C600BD502E /* locations */ = {
+			isa = PBXGroup;
+			children = (
+				FE9FA829228307C600BD502E /* 自建鼓.gpx */,
+				FE9FA8352283084100BD502E /* 擂台-怡景园.gpx */,
+				FE9FA8802283090000BD502E /* 鼓-.gpx */,
+				FE9FA8832283090000BD502E /* 鼓-的副本.gpx */,
+				FE9FA88A2283090100BD502E /* 鼓-的副本 2.gpx */,
+				FE9FA8902283090200BD502E /* 鼓-的副本 3.gpx */,
+				FE9FA8882283090100BD502E /* 鼓-的副本 4.gpx */,
+				FE9FA8932283090200BD502E /* 鼓-的副本 5.gpx */,
+				FE9FA878228308FF00BD502E /* 鼓-的副本 6.gpx */,
+				FE9FA88F2283090200BD502E /* 鼓-的副本 7.gpx */,
+				FE9FA8812283090000BD502E /* 鼓-的副本 8.gpx */,
+				FE9FA879228308FF00BD502E /* 鼓-的副本 9.gpx */,
+				FE9FA87E2283090000BD502E /* 鼓-的副本 10.gpx */,
+				FE9FA875228308FF00BD502E /* 鼓-的副本 11.gpx */,
+				FE9FA8922283090200BD502E /* 鼓-的副本 12.gpx */,
+				FE9FA8892283090100BD502E /* 鼓-的副本 13.gpx */,
+				FE9FA8872283090100BD502E /* 鼓-的副本 14.gpx */,
+				FE9FA8822283090000BD502E /* 鼓-的副本 15.gpx */,
+				FE9FA87B228308FF00BD502E /* 鼓-的副本 16.gpx */,
+				FE9FA87A228308FF00BD502E /* 鼓-的副本 17.gpx */,
+				FE9FA88D2283090100BD502E /* 鼓-的副本 18.gpx */,
+				FE9FA87C228308FF00BD502E /* 鼓-的副本 19.gpx */,
+				FE9FA873228308FF00BD502E /* 鼓-的副本 20.gpx */,
+				FE9FA88E2283090200BD502E /* 鼓-的副本 21.gpx */,
+				FE9FA876228308FF00BD502E /* 鼓-的副本 22.gpx */,
+				FE9FA8862283090100BD502E /* 鼓-的副本 23.gpx */,
+				FE9FA88C2283090100BD502E /* 鼓-的副本 24.gpx */,
+				FE9FA8842283090100BD502E /* 鼓-的副本 25.gpx */,
+				FE9FA877228308FF00BD502E /* 鼓-的副本 26.gpx */,
+				FE9FA87D228308FF00BD502E /* 鼓-的副本 27.gpx */,
+				FE9FA87F2283090000BD502E /* 鼓-的副本 28.gpx */,
+				FE9FA8942283090200BD502E /* 鼓-的副本 29.gpx */,
+				FE9FA88B2283090100BD502E /* 鼓-的副本 30.gpx */,
+				FE9FA8912283090200BD502E /* 鼓-的副本 31.gpx */,
+				FE9FA874228308FF00BD502E /* 鼓-的副本 32.gpx */,
+				FE9FA8852283090100BD502E /* 鼓-的副本 33.gpx */,
+			);
+			path = locations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +383,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9B50622282B3D70031A092 /* LaunchScreen.storyboard in Resources */,
+				FE9FA89F2283090200BD502E /* 鼓-的副本 27.gpx in Resources */,
+				FE9FA8B52283090200BD502E /* 鼓-的副本 5.gpx in Resources */,
+				FE9FA8B12283090200BD502E /* 鼓-的副本 7.gpx in Resources */,
+				FE9FA8592283084300BD502E /* 擂台-怡景园.gpx in Resources */,
+				FE9FA8A32283090200BD502E /* 鼓-的副本 8.gpx in Resources */,
+				FE9FA8AB2283090200BD502E /* 鼓-的副本 13.gpx in Resources */,
+				FE9FA8972283090200BD502E /* 鼓-的副本 11.gpx in Resources */,
+				FE9FA8A62283090200BD502E /* 鼓-的副本 25.gpx in Resources */,
+				FE9FA8B32283090200BD502E /* 鼓-的副本 31.gpx in Resources */,
+				FE9FA8952283090200BD502E /* 鼓-的副本 20.gpx in Resources */,
+				FE9FA89B2283090200BD502E /* 鼓-的副本 9.gpx in Resources */,
+				FE9FA89C2283090200BD502E /* 鼓-的副本 17.gpx in Resources */,
+				FE9FA8992283090200BD502E /* 鼓-的副本 26.gpx in Resources */,
+				FE9FA8A12283090200BD502E /* 鼓-的副本 28.gpx in Resources */,
+				FE9FA8962283090200BD502E /* 鼓-的副本 32.gpx in Resources */,
+				FE9FA8A52283090200BD502E /* 鼓-的副本.gpx in Resources */,
+				FE9FA8B62283090200BD502E /* 鼓-的副本 29.gpx in Resources */,
+				FE9FA8AA2283090200BD502E /* 鼓-的副本 4.gpx in Resources */,
 				8A9B505F2282B3D70031A092 /* Assets.xcassets in Resources */,
-				8A9B50882282B6970031A092 /* location.gpx in Resources */,
+				FE9FA8A72283090200BD502E /* 鼓-的副本 33.gpx in Resources */,
+				FE9FA8AF2283090200BD502E /* 鼓-的副本 18.gpx in Resources */,
+				FE9FA8AC2283090200BD502E /* 鼓-的副本 2.gpx in Resources */,
+				FE9FA8A92283090200BD502E /* 鼓-的副本 14.gpx in Resources */,
+				FE9FA8B42283090200BD502E /* 鼓-的副本 12.gpx in Resources */,
+				FE9FA8B02283090200BD502E /* 鼓-的副本 21.gpx in Resources */,
+				FE9FA8A22283090200BD502E /* 鼓-.gpx in Resources */,
+				FE9FA8B22283090200BD502E /* 鼓-的副本 3.gpx in Resources */,
+				FE9FA89A2283090200BD502E /* 鼓-的副本 6.gpx in Resources */,
 				8A9B505D2282B3C90031A092 /* Main.storyboard in Resources */,
+				FE9FA82A228307C600BD502E /* 自建鼓.gpx in Resources */,
+				FE9FA8A82283090200BD502E /* 鼓-的副本 23.gpx in Resources */,
+				FE9FA8982283090200BD502E /* 鼓-的副本 22.gpx in Resources */,
+				FE9FA8A42283090200BD502E /* 鼓-的副本 15.gpx in Resources */,
+				FE9FA89D2283090200BD502E /* 鼓-的副本 16.gpx in Resources */,
+				FE9FA89E2283090200BD502E /* 鼓-的副本 19.gpx in Resources */,
+				FE9FA8A02283090200BD502E /* 鼓-的副本 10.gpx in Resources */,
+				FE9FA8AE2283090200BD502E /* 鼓-的副本 24.gpx in Resources */,
+				FE9FA8AD2283090200BD502E /* 鼓-的副本 30.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
