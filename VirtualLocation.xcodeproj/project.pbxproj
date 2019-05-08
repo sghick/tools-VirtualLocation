@@ -16,6 +16,7 @@
 		8A9B506F2282B3D70031A092 /* VirtualLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B506E2282B3D70031A092 /* VirtualLocationTests.m */; };
 		8A9B507A2282B3D70031A092 /* VirtualLocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B50792282B3D70031A092 /* VirtualLocationUITests.m */; };
 		8A9B50882282B6970031A092 /* location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B50872282B6970031A092 /* location.gpx */; };
+		8A9B508B2282D2CE0031A092 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B508A2282D2CE0031A092 /* WebViewController.m */; };
 		C71D38B8BF6EFAA7BF787D7A /* Pods_VirtualLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C15879676C804C450F1FF7 /* Pods_VirtualLocation.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		8A9B50792282B3D70031A092 /* VirtualLocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualLocationUITests.m; sourceTree = "<group>"; };
 		8A9B507B2282B3D70031A092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A9B50872282B6970031A092 /* location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = location.gpx; sourceTree = "<group>"; };
+		8A9B50892282D2CE0031A092 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		8A9B508A2282D2CE0031A092 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		AC445BAB24772F4668C4B5CE /* Pods-VirtualLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualLocation/Pods-VirtualLocation.release.xcconfig"; sourceTree = "<group>"; };
 		DF697C075FF6806ABD0E07C7 /* Pods-VirtualLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualLocation/Pods-VirtualLocation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +126,8 @@
 				8A9B50562282B3C90031A092 /* AppDelegate.m */,
 				8A9B50582282B3C90031A092 /* ViewController.h */,
 				8A9B50592282B3C90031A092 /* ViewController.m */,
+				8A9B50892282D2CE0031A092 /* WebViewController.h */,
+				8A9B508A2282D2CE0031A092 /* WebViewController.m */,
 				8A9B50872282B6970031A092 /* location.gpx */,
 				8A9B505B2282B3C90031A092 /* Main.storyboard */,
 				8A9B505E2282B3D70031A092 /* Assets.xcassets */,
@@ -366,6 +371,7 @@
 				8A9B505A2282B3C90031A092 /* ViewController.m in Sources */,
 				8A9B50652282B3D70031A092 /* main.m in Sources */,
 				8A9B50572282B3C90031A092 /* AppDelegate.m in Sources */,
+				8A9B508B2282D2CE0031A092 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

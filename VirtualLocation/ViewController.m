@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <SafariServices/SafariServices.h>
 
 @interface ViewController ()<
 UITextFieldDelegate>
@@ -28,9 +27,8 @@ UITextFieldDelegate>
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationView.backBtnHidden = YES;
-    self.navigationView.rightView = [self buttonWithTitle:@"坐标" action:@selector(findBtnClick)];
+    self.navigationView.title = @"虚拟定位";
     
-    self.title = @"虚拟定位";
     [self.view addSubview:self.statusLabel];
     [self.view addSubview:self.typeField];
     [self.view addSubview:self.timeLabel];
@@ -118,11 +116,6 @@ UITextFieldDelegate>
 }
 
 #pragma mark - Actions
-
-- (void)findBtnClick {
-    SFSafariViewController *web = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:@"http://www.gpsspg.com/maps.htm"]];
-    [SMRNavigator pushOrPresentToViewController:web animated:YES];
-}
 
 - (void)GD2GPSBtnClick {
     NSString *txt = self.valueTextField.text;
