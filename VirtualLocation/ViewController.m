@@ -188,8 +188,8 @@ UITextFieldDelegate>
         NSArray<NSString *> *ls = [txt componentsSeparatedByString:@","];
         CLLocationCoordinate2D coor = CLLocationCoordinate2DMake(ls.firstObject.doubleValue, ls.lastObject.doubleValue);
         CLLocationCoordinate2D scoor = [SMRUtils transformFromBDToGPSWithCoordinate:coor];
-        NSString *result = [NSString stringWithFormat:@"<wpt lat='%@' lon='%@'>", @(scoor.latitude), @(scoor.longitude)];
-        NSLog(@"%@", result);
+        NSString *result = [NSString stringWithFormat:@"<wpt lat='%@' lon='%@'\>", @(scoor.latitude), @(scoor.longitude)];
+        printf("%s\n", [result cStringUsingEncoding:NSUTF8StringEncoding]);
     }
     
     
