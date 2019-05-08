@@ -1,0 +1,6 @@
+framework module SMRBaseCore {
+  umbrella header "SMRBaseCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

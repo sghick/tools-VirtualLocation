@@ -1,0 +1,64 @@
+{
+  "name": "SMRBaseCore",
+  "version": "1.0.0",
+  "summary": "the base core of framework",
+  "authors": {
+    "tinswin": "https://github.com/sghick"
+  },
+  "homepage": "https://github.com/sghick/framework-SMRBaseCore",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "git@github.com:sghick/framework-SMRBaseCore.git"
+  },
+  "public_header_files": [
+    "SMRBaseCore/SMRDataBase/SMRDataBase.h",
+    "SMRBaseCore/SMRLifecycle/SMRLifecycle.h",
+    "SMRBaseCore/SMRRouter/SMRRouter.h",
+    "SMRBaseCore/SMRModel/SMRModel.h",
+    "SMRBaseCore/SMRDebug/SMRDebug.h",
+    "SMRBaseCore/SMRNetwork/SMRNetwork.h"
+  ],
+  "source_files": "SMRBaseCore/**/*.{h,m}",
+  "resources": "SMRBaseCore/SMRUIKit/SMRUIKitBundle.bundle",
+  "dependencies": {
+    "AFNetworking": [
+      "3.2.1"
+    ],
+    "YYCache": [
+      "1.0.4"
+    ],
+    "FMDB": [
+      "2.7.2"
+    ],
+    "YYModel": [
+      "1.0.4"
+    ],
+    "FLEX": [
+      "2.4.0"
+    ],
+    "PureLayout": [
+      "3.1.4"
+    ],
+    "SDWebImage": [
+      "4.4.3"
+    ],
+    "MJRefresh": [
+      "3.1.15.7"
+    ],
+    "IQKeyboardManager": [
+      "~> 3.3.7"
+    ],
+    "YYText": [
+      "1.0.7"
+    ],
+    "MBProgressHUD": [
+      "1.1.0"
+    ],
+    "CocoaSecurity": [
+      "1.2.4"
+    ]
+  }
+}
