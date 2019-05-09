@@ -37,7 +37,7 @@ UITextFieldDelegate>
     NSArray<UIButton *> *array = @[[self buttonWithTitle:@"高德" action:@selector(GD2GPSBtnClick)],
                                    [self buttonWithTitle:@"百度" action:@selector(BD2GPSBtnClick)],
                                    [self buttonWithTitle:@"    " action:@selector(location1Click)],
-                                   [self buttonWithTitle:@"    " action:@selector(location1Click)],
+                                   [self buttonWithTitle:@"创建" action:@selector(createClick)],
                                    [self buttonWithTitle:@"位置1" action:@selector(location1Click)],
                                    [self buttonWithTitle:@"位置2" action:@selector(location2Click)],
                                    [self buttonWithTitle:@"位置3" action:@selector(location3Click)],
@@ -135,14 +135,9 @@ UITextFieldDelegate>
     self.statusLabel.text = result;
 }
 
-- (void)location1Click {
-    NSString *coorstr = [NSString stringWithFormat:@"39.8966334273,116.4636182785"];
-    self.valueTextField.text = coorstr;
-    [self GD2GPSBtnClick];
-}
-
-- (void)location2Click {
-    NSArray<NSString *> *gdstrs = @[@"39.8338830351,116.2907552719",
+- (void)createClick {
+    NSArray<NSString *> *gdstrs = @[@"39.8338377221,116.2906265259",
+                                    @"39.8338830351,116.2907552719",
                                     @"39.8342784928,116.2896233797",
                                     @"39.8345874425,116.2900042534",
                                     @"39.8338912738,116.2919837236",
@@ -184,14 +179,35 @@ UITextFieldDelegate>
                                     @"39.8583106292,116.3075083494",
                                     @"39.8580512012,116.3058561087"];
     
+//    NSString *bd = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"gpx"];
+//    NSString *str = [[NSString alloc] initWithContentsOfFile:bd encoding:NSUTF8StringEncoding error:nil];
+//    printf("%s\n", [str cStringUsingEncoding:NSUTF8StringEncoding]);
+    
+    NSString *doc = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+    printf("%s\n", [doc cStringUsingEncoding:NSUTF8StringEncoding]);
+    NSString *gpxformat = @"<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<gpx version=\"1.1\"\n    creator=\"GMapToGPX 6.4j - http://www.elsewhere.org/GMapToGPX/\"\n    xmlns=\"http://www.topografix.com/GPX/1/1\"\n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n    xsi:schemaLocation=\"http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd\">\n        %@\n</gpx>";
+    int i = 0;
     for (NSString *txt in gdstrs) {
         NSArray<NSString *> *ls = [txt componentsSeparatedByString:@","];
         CLLocationCoordinate2D coor = CLLocationCoordinate2DMake(ls.firstObject.doubleValue, ls.lastObject.doubleValue);
-        CLLocationCoordinate2D scoor = [SMRUtils transformFromBDToGPSWithCoordinate:coor];
-        NSString *result = [NSString stringWithFormat:@"<wpt lat='%@' lon='%@'\>", @(scoor.latitude), @(scoor.longitude)];
-        printf("%s\n", [result cStringUsingEncoding:NSUTF8StringEncoding]);
+        CLLocationCoordinate2D scoor = [SMRUtils transformFromGDToGPSWithCoordinate:coor];
+        NSString *lostr = [NSString stringWithFormat:@"<wpt lat='%@' lon='%@'></wpt>", @(scoor.latitude), @(scoor.longitude)];
+        NSString *result = [NSString stringWithFormat:gpxformat, lostr];
+        NSString *path = [doc stringByAppendingPathComponent:[NSString stringWithFormat:@"定位-%2d.gpx", i]];
+        [result writeToFile:path atomically:YES encoding:NSUTF8StringEncoding error:nil];
+//        printf("%s\n", [result cStringUsingEncoding:NSUTF8StringEncoding]);
+        i++;
     }
     
+}
+
+- (void)location1Click {
+    NSString *coorstr = [NSString stringWithFormat:@"39.8966334273,116.4636182785"];
+    self.valueTextField.text = coorstr;
+    [self GD2GPSBtnClick];
+}
+
+- (void)location2Click {
     
 }
 
