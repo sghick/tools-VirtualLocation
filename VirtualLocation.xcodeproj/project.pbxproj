@@ -16,48 +16,66 @@
 		8A9B506F2282B3D70031A092 /* VirtualLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B506E2282B3D70031A092 /* VirtualLocationTests.m */; };
 		8A9B507A2282B3D70031A092 /* VirtualLocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B50792282B3D70031A092 /* VirtualLocationUITests.m */; };
 		8A9B508B2282D2CE0031A092 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B508A2282D2CE0031A092 /* WebViewController.m */; };
-		8A9B515F2283D0490031A092 /* 定位-11.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51362283D0470031A092 /* 定位-11.gpx */; };
-		8A9B51602283D0490031A092 /* 定位- 2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51372283D0470031A092 /* 定位- 2.gpx */; };
-		8A9B51612283D0490031A092 /* 定位- 6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51382283D0470031A092 /* 定位- 6.gpx */; };
-		8A9B51622283D0490031A092 /* 定位- 8.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51392283D0470031A092 /* 定位- 8.gpx */; };
-		8A9B51632283D0490031A092 /* 定位-36.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B513A2283D0470031A092 /* 定位-36.gpx */; };
-		8A9B51642283D0490031A092 /* 定位-28.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B513B2283D0470031A092 /* 定位-28.gpx */; };
-		8A9B51652283D0490031A092 /* 定位- 3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B513C2283D0470031A092 /* 定位- 3.gpx */; };
-		8A9B51662283D0490031A092 /* 定位-20.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B513D2283D0470031A092 /* 定位-20.gpx */; };
-		8A9B51672283D0490031A092 /* 定位-29.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B513E2283D0470031A092 /* 定位-29.gpx */; };
-		8A9B51682283D0490031A092 /* 定位- 1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B513F2283D0470031A092 /* 定位- 1.gpx */; };
-		8A9B51692283D0490031A092 /* 定位-22.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51402283D0470031A092 /* 定位-22.gpx */; };
-		8A9B516A2283D0490031A092 /* 定位-23.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51412283D0470031A092 /* 定位-23.gpx */; };
-		8A9B516B2283D0490031A092 /* 定位-19.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51422283D0470031A092 /* 定位-19.gpx */; };
-		8A9B516C2283D0490031A092 /* 定位-32.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51432283D0470031A092 /* 定位-32.gpx */; };
-		8A9B516D2283D0490031A092 /* 定位-33.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51442283D0470031A092 /* 定位-33.gpx */; };
-		8A9B516E2283D0490031A092 /* 定位-15.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51452283D0480031A092 /* 定位-15.gpx */; };
-		8A9B516F2283D0490031A092 /* 定位-16.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51462283D0480031A092 /* 定位-16.gpx */; };
-		8A9B51702283D0490031A092 /* 定位-10.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51472283D0480031A092 /* 定位-10.gpx */; };
-		8A9B51712283D0490031A092 /* 定位- 5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51482283D0480031A092 /* 定位- 5.gpx */; };
-		8A9B51722283D0490031A092 /* 定位-24.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51492283D0480031A092 /* 定位-24.gpx */; };
-		8A9B51732283D0490031A092 /* 定位-40.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B514A2283D0480031A092 /* 定位-40.gpx */; };
-		8A9B51742283D0490031A092 /* 定位- 9.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B514B2283D0480031A092 /* 定位- 9.gpx */; };
-		8A9B51752283D0490031A092 /* 定位-17.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B514C2283D0480031A092 /* 定位-17.gpx */; };
-		8A9B51762283D0490031A092 /* 定位-13.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B514D2283D0480031A092 /* 定位-13.gpx */; };
-		8A9B51772283D0490031A092 /* 定位-26.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B514E2283D0480031A092 /* 定位-26.gpx */; };
-		8A9B51782283D0490031A092 /* 定位-30.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B514F2283D0480031A092 /* 定位-30.gpx */; };
-		8A9B51792283D0490031A092 /* 定位-31.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51502283D0480031A092 /* 定位-31.gpx */; };
-		8A9B517A2283D0490031A092 /* 定位-12.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51512283D0480031A092 /* 定位-12.gpx */; };
-		8A9B517B2283D0490031A092 /* 定位- 7.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51522283D0480031A092 /* 定位- 7.gpx */; };
-		8A9B517C2283D0490031A092 /* 定位-21.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51532283D0480031A092 /* 定位-21.gpx */; };
-		8A9B517D2283D0490031A092 /* 定位- 4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51542283D0480031A092 /* 定位- 4.gpx */; };
-		8A9B517E2283D0490031A092 /* 定位-18.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51552283D0480031A092 /* 定位-18.gpx */; };
-		8A9B517F2283D0490031A092 /* 定位- 0.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51562283D0480031A092 /* 定位- 0.gpx */; };
-		8A9B51802283D0490031A092 /* 定位-25.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51572283D0480031A092 /* 定位-25.gpx */; };
-		8A9B51812283D0490031A092 /* 定位-14.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51582283D0490031A092 /* 定位-14.gpx */; };
-		8A9B51822283D0490031A092 /* 定位-35.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B51592283D0490031A092 /* 定位-35.gpx */; };
-		8A9B51832283D0490031A092 /* 定位-34.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B515A2283D0490031A092 /* 定位-34.gpx */; };
-		8A9B51842283D0490031A092 /* 定位-37.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B515B2283D0490031A092 /* 定位-37.gpx */; };
-		8A9B51852283D0490031A092 /* 定位-38.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B515C2283D0490031A092 /* 定位-38.gpx */; };
-		8A9B51862283D0490031A092 /* 定位-27.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B515D2283D0490031A092 /* 定位-27.gpx */; };
-		8A9B51872283D0490031A092 /* 定位-39.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B515E2283D0490031A092 /* 定位-39.gpx */; };
 		C71D38B8BF6EFAA7BF787D7A /* Pods_VirtualLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C15879676C804C450F1FF7 /* Pods_VirtualLocation.framework */; };
+		FEA65A222287EFE500464846 /* 世界公园-30.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659E72287EFE400464846 /* 世界公园-30.gpx */; };
+		FEA65A232287EFE500464846 /* 世界公园-24.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659E82287EFE400464846 /* 世界公园-24.gpx */; };
+		FEA65A242287EFE500464846 /* 世界公园-18.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659E92287EFE400464846 /* 世界公园-18.gpx */; };
+		FEA65A252287EFE500464846 /* 世界公园-19.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659EA2287EFE400464846 /* 世界公园-19.gpx */; };
+		FEA65A262287EFE500464846 /* 世界公园-25.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659EB2287EFE400464846 /* 世界公园-25.gpx */; };
+		FEA65A272287EFE500464846 /* 世界公园-31.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659EC2287EFE400464846 /* 世界公园-31.gpx */; };
+		FEA65A282287EFE500464846 /* 世界公园-27.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659ED2287EFE400464846 /* 世界公园-27.gpx */; };
+		FEA65A292287EFE500464846 /* 世界公园-33.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659EE2287EFE400464846 /* 世界公园-33.gpx */; };
+		FEA65A2A2287EFE500464846 /* 世界公园-32.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659EF2287EFE400464846 /* 世界公园-32.gpx */; };
+		FEA65A2B2287EFE500464846 /* 世界公园-26.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659F02287EFE400464846 /* 世界公园-26.gpx */; };
+		FEA65A2C2287EFE500464846 /* 世界公园-22.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659F12287EFE400464846 /* 世界公园-22.gpx */; };
+		FEA65A2D2287EFE500464846 /* 世界公园-36.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659F22287EFE400464846 /* 世界公园-36.gpx */; };
+		FEA65A2E2287EFE500464846 /* 世界公园-37.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659F32287EFE400464846 /* 世界公园-37.gpx */; };
+		FEA65A2F2287EFE500464846 /* 世界公园-23.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659F42287EFE400464846 /* 世界公园-23.gpx */; };
+		FEA65A302287EFE500464846 /* 世界公园-35.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659F52287EFE400464846 /* 世界公园-35.gpx */; };
+		FEA65A312287EFE500464846 /* 世界公园-21.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659F62287EFE400464846 /* 世界公园-21.gpx */; };
+		FEA65A322287EFE500464846 /* 世界公园-20.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659F72287EFE400464846 /* 世界公园-20.gpx */; };
+		FEA65A332287EFE500464846 /* 世界公园-34.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659F82287EFE400464846 /* 世界公园-34.gpx */; };
+		FEA65A342287EFE500464846 /* 世界公园-53.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659F92287EFE400464846 /* 世界公园-53.gpx */; };
+		FEA65A352287EFE500464846 /* 世界公园-47.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659FA2287EFE400464846 /* 世界公园-47.gpx */; };
+		FEA65A362287EFE500464846 /* 世界公园- 2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659FB2287EFE400464846 /* 世界公园- 2.gpx */; };
+		FEA65A372287EFE500464846 /* 世界公园- 3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659FC2287EFE400464846 /* 世界公园- 3.gpx */; };
+		FEA65A382287EFE500464846 /* 世界公园-46.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659FD2287EFE400464846 /* 世界公园-46.gpx */; };
+		FEA65A392287EFE500464846 /* 世界公园-52.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659FE2287EFE400464846 /* 世界公园-52.gpx */; };
+		FEA65A3A2287EFE500464846 /* 世界公园-44.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA659FF2287EFE400464846 /* 世界公园-44.gpx */; };
+		FEA65A3B2287EFE500464846 /* 世界公园-50.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A002287EFE400464846 /* 世界公园-50.gpx */; };
+		FEA65A3C2287EFE500464846 /* 世界公园- 1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A012287EFE400464846 /* 世界公园- 1.gpx */; };
+		FEA65A3D2287EFE500464846 /* 世界公园- 0.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A022287EFE400464846 /* 世界公园- 0.gpx */; };
+		FEA65A3E2287EFE500464846 /* 世界公园-51.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A032287EFE400464846 /* 世界公园-51.gpx */; };
+		FEA65A3F2287EFE500464846 /* 世界公园-45.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A042287EFE400464846 /* 世界公园-45.gpx */; };
+		FEA65A402287EFE500464846 /* 世界公园-41.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A052287EFE400464846 /* 世界公园-41.gpx */; };
+		FEA65A412287EFE500464846 /* 世界公园-55.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A062287EFE400464846 /* 世界公园-55.gpx */; };
+		FEA65A422287EFE500464846 /* 世界公园- 4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A072287EFE400464846 /* 世界公园- 4.gpx */; };
+		FEA65A432287EFE500464846 /* 世界公园- 5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A082287EFE400464846 /* 世界公园- 5.gpx */; };
+		FEA65A442287EFE500464846 /* 世界公园-54.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A092287EFE400464846 /* 世界公园-54.gpx */; };
+		FEA65A452287EFE500464846 /* 世界公园-40.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A0A2287EFE400464846 /* 世界公园-40.gpx */; };
+		FEA65A462287EFE500464846 /* 世界公园-56.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A0B2287EFE400464846 /* 世界公园-56.gpx */; };
+		FEA65A472287EFE500464846 /* 世界公园-42.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A0C2287EFE400464846 /* 世界公园-42.gpx */; };
+		FEA65A482287EFE500464846 /* 世界公园- 7.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A0D2287EFE400464846 /* 世界公园- 7.gpx */; };
+		FEA65A492287EFE500464846 /* 世界公园- 6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A0E2287EFE400464846 /* 世界公园- 6.gpx */; };
+		FEA65A4A2287EFE500464846 /* 世界公园-43.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A0F2287EFE400464846 /* 世界公园-43.gpx */; };
+		FEA65A4B2287EFE500464846 /* 世界公园-57.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A102287EFE400464846 /* 世界公园-57.gpx */; };
+		FEA65A4C2287EFE500464846 /* 世界公园- 8.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A112287EFE400464846 /* 世界公园- 8.gpx */; };
+		FEA65A4D2287EFE500464846 /* 世界公园- 9.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A122287EFE400464846 /* 世界公园- 9.gpx */; };
+		FEA65A4E2287EFE500464846 /* 世界公园-58.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A132287EFE400464846 /* 世界公园-58.gpx */; };
+		FEA65A4F2287EFE500464846 /* 世界公园-48.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A142287EFE400464846 /* 世界公园-48.gpx */; };
+		FEA65A502287EFE500464846 /* 世界公园-49.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A152287EFE400464846 /* 世界公园-49.gpx */; };
+		FEA65A512287EFE500464846 /* 世界公园-11.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A162287EFE400464846 /* 世界公园-11.gpx */; };
+		FEA65A522287EFE500464846 /* 世界公园-39.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A172287EFE400464846 /* 世界公园-39.gpx */; };
+		FEA65A532287EFE500464846 /* 世界公园-38.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A182287EFE400464846 /* 世界公园-38.gpx */; };
+		FEA65A542287EFE500464846 /* 世界公园-10.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A192287EFE400464846 /* 世界公园-10.gpx */; };
+		FEA65A552287EFE500464846 /* 世界公园-12.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A1A2287EFE400464846 /* 世界公园-12.gpx */; };
+		FEA65A562287EFE500464846 /* 世界公园-13.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A1B2287EFE400464846 /* 世界公园-13.gpx */; };
+		FEA65A572287EFE500464846 /* 世界公园-17.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A1C2287EFE400464846 /* 世界公园-17.gpx */; };
+		FEA65A582287EFE500464846 /* 世界公园-16.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A1D2287EFE400464846 /* 世界公园-16.gpx */; };
+		FEA65A592287EFE500464846 /* 世界公园-28.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A1E2287EFE400464846 /* 世界公园-28.gpx */; };
+		FEA65A5A2287EFE500464846 /* 世界公园-14.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A1F2287EFE400464846 /* 世界公园-14.gpx */; };
+		FEA65A5B2287EFE500464846 /* 世界公园-15.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A202287EFE400464846 /* 世界公园-15.gpx */; };
+		FEA65A5C2287EFE500464846 /* 世界公园-29.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65A212287EFE400464846 /* 世界公园-29.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,49 +115,67 @@
 		8A9B507B2282B3D70031A092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A9B50892282D2CE0031A092 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		8A9B508A2282D2CE0031A092 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		8A9B51362283D0470031A092 /* 定位-11.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-11.gpx"; sourceTree = "<group>"; };
-		8A9B51372283D0470031A092 /* 定位- 2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位- 2.gpx"; sourceTree = "<group>"; };
-		8A9B51382283D0470031A092 /* 定位- 6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位- 6.gpx"; sourceTree = "<group>"; };
-		8A9B51392283D0470031A092 /* 定位- 8.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位- 8.gpx"; sourceTree = "<group>"; };
-		8A9B513A2283D0470031A092 /* 定位-36.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-36.gpx"; sourceTree = "<group>"; };
-		8A9B513B2283D0470031A092 /* 定位-28.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-28.gpx"; sourceTree = "<group>"; };
-		8A9B513C2283D0470031A092 /* 定位- 3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位- 3.gpx"; sourceTree = "<group>"; };
-		8A9B513D2283D0470031A092 /* 定位-20.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-20.gpx"; sourceTree = "<group>"; };
-		8A9B513E2283D0470031A092 /* 定位-29.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-29.gpx"; sourceTree = "<group>"; };
-		8A9B513F2283D0470031A092 /* 定位- 1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位- 1.gpx"; sourceTree = "<group>"; };
-		8A9B51402283D0470031A092 /* 定位-22.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-22.gpx"; sourceTree = "<group>"; };
-		8A9B51412283D0470031A092 /* 定位-23.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-23.gpx"; sourceTree = "<group>"; };
-		8A9B51422283D0470031A092 /* 定位-19.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-19.gpx"; sourceTree = "<group>"; };
-		8A9B51432283D0470031A092 /* 定位-32.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-32.gpx"; sourceTree = "<group>"; };
-		8A9B51442283D0470031A092 /* 定位-33.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-33.gpx"; sourceTree = "<group>"; };
-		8A9B51452283D0480031A092 /* 定位-15.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-15.gpx"; sourceTree = "<group>"; };
-		8A9B51462283D0480031A092 /* 定位-16.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-16.gpx"; sourceTree = "<group>"; };
-		8A9B51472283D0480031A092 /* 定位-10.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-10.gpx"; sourceTree = "<group>"; };
-		8A9B51482283D0480031A092 /* 定位- 5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位- 5.gpx"; sourceTree = "<group>"; };
-		8A9B51492283D0480031A092 /* 定位-24.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-24.gpx"; sourceTree = "<group>"; };
-		8A9B514A2283D0480031A092 /* 定位-40.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-40.gpx"; sourceTree = "<group>"; };
-		8A9B514B2283D0480031A092 /* 定位- 9.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位- 9.gpx"; sourceTree = "<group>"; };
-		8A9B514C2283D0480031A092 /* 定位-17.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-17.gpx"; sourceTree = "<group>"; };
-		8A9B514D2283D0480031A092 /* 定位-13.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-13.gpx"; sourceTree = "<group>"; };
-		8A9B514E2283D0480031A092 /* 定位-26.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-26.gpx"; sourceTree = "<group>"; };
-		8A9B514F2283D0480031A092 /* 定位-30.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-30.gpx"; sourceTree = "<group>"; };
-		8A9B51502283D0480031A092 /* 定位-31.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-31.gpx"; sourceTree = "<group>"; };
-		8A9B51512283D0480031A092 /* 定位-12.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-12.gpx"; sourceTree = "<group>"; };
-		8A9B51522283D0480031A092 /* 定位- 7.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位- 7.gpx"; sourceTree = "<group>"; };
-		8A9B51532283D0480031A092 /* 定位-21.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-21.gpx"; sourceTree = "<group>"; };
-		8A9B51542283D0480031A092 /* 定位- 4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位- 4.gpx"; sourceTree = "<group>"; };
-		8A9B51552283D0480031A092 /* 定位-18.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-18.gpx"; sourceTree = "<group>"; };
-		8A9B51562283D0480031A092 /* 定位- 0.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位- 0.gpx"; sourceTree = "<group>"; };
-		8A9B51572283D0480031A092 /* 定位-25.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-25.gpx"; sourceTree = "<group>"; };
-		8A9B51582283D0490031A092 /* 定位-14.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-14.gpx"; sourceTree = "<group>"; };
-		8A9B51592283D0490031A092 /* 定位-35.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-35.gpx"; sourceTree = "<group>"; };
-		8A9B515A2283D0490031A092 /* 定位-34.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-34.gpx"; sourceTree = "<group>"; };
-		8A9B515B2283D0490031A092 /* 定位-37.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-37.gpx"; sourceTree = "<group>"; };
-		8A9B515C2283D0490031A092 /* 定位-38.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-38.gpx"; sourceTree = "<group>"; };
-		8A9B515D2283D0490031A092 /* 定位-27.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-27.gpx"; sourceTree = "<group>"; };
-		8A9B515E2283D0490031A092 /* 定位-39.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "定位-39.gpx"; sourceTree = "<group>"; };
 		AC445BAB24772F4668C4B5CE /* Pods-VirtualLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualLocation/Pods-VirtualLocation.release.xcconfig"; sourceTree = "<group>"; };
 		DF697C075FF6806ABD0E07C7 /* Pods-VirtualLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualLocation/Pods-VirtualLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		FEA659E72287EFE400464846 /* 世界公园-30.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-30.gpx"; sourceTree = "<group>"; };
+		FEA659E82287EFE400464846 /* 世界公园-24.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-24.gpx"; sourceTree = "<group>"; };
+		FEA659E92287EFE400464846 /* 世界公园-18.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-18.gpx"; sourceTree = "<group>"; };
+		FEA659EA2287EFE400464846 /* 世界公园-19.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-19.gpx"; sourceTree = "<group>"; };
+		FEA659EB2287EFE400464846 /* 世界公园-25.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-25.gpx"; sourceTree = "<group>"; };
+		FEA659EC2287EFE400464846 /* 世界公园-31.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-31.gpx"; sourceTree = "<group>"; };
+		FEA659ED2287EFE400464846 /* 世界公园-27.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-27.gpx"; sourceTree = "<group>"; };
+		FEA659EE2287EFE400464846 /* 世界公园-33.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-33.gpx"; sourceTree = "<group>"; };
+		FEA659EF2287EFE400464846 /* 世界公园-32.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-32.gpx"; sourceTree = "<group>"; };
+		FEA659F02287EFE400464846 /* 世界公园-26.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-26.gpx"; sourceTree = "<group>"; };
+		FEA659F12287EFE400464846 /* 世界公园-22.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-22.gpx"; sourceTree = "<group>"; };
+		FEA659F22287EFE400464846 /* 世界公园-36.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-36.gpx"; sourceTree = "<group>"; };
+		FEA659F32287EFE400464846 /* 世界公园-37.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-37.gpx"; sourceTree = "<group>"; };
+		FEA659F42287EFE400464846 /* 世界公园-23.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-23.gpx"; sourceTree = "<group>"; };
+		FEA659F52287EFE400464846 /* 世界公园-35.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-35.gpx"; sourceTree = "<group>"; };
+		FEA659F62287EFE400464846 /* 世界公园-21.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-21.gpx"; sourceTree = "<group>"; };
+		FEA659F72287EFE400464846 /* 世界公园-20.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-20.gpx"; sourceTree = "<group>"; };
+		FEA659F82287EFE400464846 /* 世界公园-34.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-34.gpx"; sourceTree = "<group>"; };
+		FEA659F92287EFE400464846 /* 世界公园-53.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-53.gpx"; sourceTree = "<group>"; };
+		FEA659FA2287EFE400464846 /* 世界公园-47.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-47.gpx"; sourceTree = "<group>"; };
+		FEA659FB2287EFE400464846 /* 世界公园- 2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 2.gpx"; sourceTree = "<group>"; };
+		FEA659FC2287EFE400464846 /* 世界公园- 3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 3.gpx"; sourceTree = "<group>"; };
+		FEA659FD2287EFE400464846 /* 世界公园-46.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-46.gpx"; sourceTree = "<group>"; };
+		FEA659FE2287EFE400464846 /* 世界公园-52.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-52.gpx"; sourceTree = "<group>"; };
+		FEA659FF2287EFE400464846 /* 世界公园-44.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-44.gpx"; sourceTree = "<group>"; };
+		FEA65A002287EFE400464846 /* 世界公园-50.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-50.gpx"; sourceTree = "<group>"; };
+		FEA65A012287EFE400464846 /* 世界公园- 1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 1.gpx"; sourceTree = "<group>"; };
+		FEA65A022287EFE400464846 /* 世界公园- 0.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 0.gpx"; sourceTree = "<group>"; };
+		FEA65A032287EFE400464846 /* 世界公园-51.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-51.gpx"; sourceTree = "<group>"; };
+		FEA65A042287EFE400464846 /* 世界公园-45.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-45.gpx"; sourceTree = "<group>"; };
+		FEA65A052287EFE400464846 /* 世界公园-41.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-41.gpx"; sourceTree = "<group>"; };
+		FEA65A062287EFE400464846 /* 世界公园-55.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-55.gpx"; sourceTree = "<group>"; };
+		FEA65A072287EFE400464846 /* 世界公园- 4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 4.gpx"; sourceTree = "<group>"; };
+		FEA65A082287EFE400464846 /* 世界公园- 5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 5.gpx"; sourceTree = "<group>"; };
+		FEA65A092287EFE400464846 /* 世界公园-54.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-54.gpx"; sourceTree = "<group>"; };
+		FEA65A0A2287EFE400464846 /* 世界公园-40.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-40.gpx"; sourceTree = "<group>"; };
+		FEA65A0B2287EFE400464846 /* 世界公园-56.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-56.gpx"; sourceTree = "<group>"; };
+		FEA65A0C2287EFE400464846 /* 世界公园-42.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-42.gpx"; sourceTree = "<group>"; };
+		FEA65A0D2287EFE400464846 /* 世界公园- 7.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 7.gpx"; sourceTree = "<group>"; };
+		FEA65A0E2287EFE400464846 /* 世界公园- 6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 6.gpx"; sourceTree = "<group>"; };
+		FEA65A0F2287EFE400464846 /* 世界公园-43.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-43.gpx"; sourceTree = "<group>"; };
+		FEA65A102287EFE400464846 /* 世界公园-57.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-57.gpx"; sourceTree = "<group>"; };
+		FEA65A112287EFE400464846 /* 世界公园- 8.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 8.gpx"; sourceTree = "<group>"; };
+		FEA65A122287EFE400464846 /* 世界公园- 9.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 9.gpx"; sourceTree = "<group>"; };
+		FEA65A132287EFE400464846 /* 世界公园-58.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-58.gpx"; sourceTree = "<group>"; };
+		FEA65A142287EFE400464846 /* 世界公园-48.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-48.gpx"; sourceTree = "<group>"; };
+		FEA65A152287EFE400464846 /* 世界公园-49.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-49.gpx"; sourceTree = "<group>"; };
+		FEA65A162287EFE400464846 /* 世界公园-11.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-11.gpx"; sourceTree = "<group>"; };
+		FEA65A172287EFE400464846 /* 世界公园-39.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-39.gpx"; sourceTree = "<group>"; };
+		FEA65A182287EFE400464846 /* 世界公园-38.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-38.gpx"; sourceTree = "<group>"; };
+		FEA65A192287EFE400464846 /* 世界公园-10.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-10.gpx"; sourceTree = "<group>"; };
+		FEA65A1A2287EFE400464846 /* 世界公园-12.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-12.gpx"; sourceTree = "<group>"; };
+		FEA65A1B2287EFE400464846 /* 世界公园-13.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-13.gpx"; sourceTree = "<group>"; };
+		FEA65A1C2287EFE400464846 /* 世界公园-17.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-17.gpx"; sourceTree = "<group>"; };
+		FEA65A1D2287EFE400464846 /* 世界公园-16.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-16.gpx"; sourceTree = "<group>"; };
+		FEA65A1E2287EFE400464846 /* 世界公园-28.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-28.gpx"; sourceTree = "<group>"; };
+		FEA65A1F2287EFE400464846 /* 世界公园-14.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-14.gpx"; sourceTree = "<group>"; };
+		FEA65A202287EFE400464846 /* 世界公园-15.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-15.gpx"; sourceTree = "<group>"; };
+		FEA65A212287EFE400464846 /* 世界公园-29.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-29.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,7 +244,7 @@
 				8A9B50592282B3C90031A092 /* ViewController.m */,
 				8A9B50892282D2CE0031A092 /* WebViewController.h */,
 				8A9B508A2282D2CE0031A092 /* WebViewController.m */,
-				8A9B50E12283C9890031A092 /* loc4fengtai */,
+				FEA659E62287EFE400464846 /* 世界公园 */,
 				8A9B505B2282B3C90031A092 /* Main.storyboard */,
 				8A9B505E2282B3D70031A092 /* Assets.xcassets */,
 				8A9B50602282B3D70031A092 /* LaunchScreen.storyboard */,
@@ -236,60 +272,79 @@
 			path = VirtualLocationUITests;
 			sourceTree = "<group>";
 		};
-		8A9B50E12283C9890031A092 /* loc4fengtai */ = {
-			isa = PBXGroup;
-			children = (
-				8A9B51562283D0480031A092 /* 定位- 0.gpx */,
-				8A9B513F2283D0470031A092 /* 定位- 1.gpx */,
-				8A9B51372283D0470031A092 /* 定位- 2.gpx */,
-				8A9B513C2283D0470031A092 /* 定位- 3.gpx */,
-				8A9B51542283D0480031A092 /* 定位- 4.gpx */,
-				8A9B51482283D0480031A092 /* 定位- 5.gpx */,
-				8A9B51382283D0470031A092 /* 定位- 6.gpx */,
-				8A9B51522283D0480031A092 /* 定位- 7.gpx */,
-				8A9B51392283D0470031A092 /* 定位- 8.gpx */,
-				8A9B514B2283D0480031A092 /* 定位- 9.gpx */,
-				8A9B51472283D0480031A092 /* 定位-10.gpx */,
-				8A9B51362283D0470031A092 /* 定位-11.gpx */,
-				8A9B51512283D0480031A092 /* 定位-12.gpx */,
-				8A9B514D2283D0480031A092 /* 定位-13.gpx */,
-				8A9B51582283D0490031A092 /* 定位-14.gpx */,
-				8A9B51452283D0480031A092 /* 定位-15.gpx */,
-				8A9B51462283D0480031A092 /* 定位-16.gpx */,
-				8A9B514C2283D0480031A092 /* 定位-17.gpx */,
-				8A9B51552283D0480031A092 /* 定位-18.gpx */,
-				8A9B51422283D0470031A092 /* 定位-19.gpx */,
-				8A9B513D2283D0470031A092 /* 定位-20.gpx */,
-				8A9B51532283D0480031A092 /* 定位-21.gpx */,
-				8A9B51402283D0470031A092 /* 定位-22.gpx */,
-				8A9B51412283D0470031A092 /* 定位-23.gpx */,
-				8A9B51492283D0480031A092 /* 定位-24.gpx */,
-				8A9B51572283D0480031A092 /* 定位-25.gpx */,
-				8A9B514E2283D0480031A092 /* 定位-26.gpx */,
-				8A9B515D2283D0490031A092 /* 定位-27.gpx */,
-				8A9B513B2283D0470031A092 /* 定位-28.gpx */,
-				8A9B513E2283D0470031A092 /* 定位-29.gpx */,
-				8A9B514F2283D0480031A092 /* 定位-30.gpx */,
-				8A9B51502283D0480031A092 /* 定位-31.gpx */,
-				8A9B51432283D0470031A092 /* 定位-32.gpx */,
-				8A9B51442283D0470031A092 /* 定位-33.gpx */,
-				8A9B515A2283D0490031A092 /* 定位-34.gpx */,
-				8A9B51592283D0490031A092 /* 定位-35.gpx */,
-				8A9B513A2283D0470031A092 /* 定位-36.gpx */,
-				8A9B515B2283D0490031A092 /* 定位-37.gpx */,
-				8A9B515C2283D0490031A092 /* 定位-38.gpx */,
-				8A9B515E2283D0490031A092 /* 定位-39.gpx */,
-				8A9B514A2283D0480031A092 /* 定位-40.gpx */,
-			);
-			path = loc4fengtai;
-			sourceTree = "<group>";
-		};
 		BE3C0F11D374304C4112F51F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				47C15879676C804C450F1FF7 /* Pods_VirtualLocation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA659E62287EFE400464846 /* 世界公园 */ = {
+			isa = PBXGroup;
+			children = (
+				FEA659E72287EFE400464846 /* 世界公园-30.gpx */,
+				FEA659E82287EFE400464846 /* 世界公园-24.gpx */,
+				FEA659E92287EFE400464846 /* 世界公园-18.gpx */,
+				FEA659EA2287EFE400464846 /* 世界公园-19.gpx */,
+				FEA659EB2287EFE400464846 /* 世界公园-25.gpx */,
+				FEA659EC2287EFE400464846 /* 世界公园-31.gpx */,
+				FEA659ED2287EFE400464846 /* 世界公园-27.gpx */,
+				FEA659EE2287EFE400464846 /* 世界公园-33.gpx */,
+				FEA659EF2287EFE400464846 /* 世界公园-32.gpx */,
+				FEA659F02287EFE400464846 /* 世界公园-26.gpx */,
+				FEA659F12287EFE400464846 /* 世界公园-22.gpx */,
+				FEA659F22287EFE400464846 /* 世界公园-36.gpx */,
+				FEA659F32287EFE400464846 /* 世界公园-37.gpx */,
+				FEA659F42287EFE400464846 /* 世界公园-23.gpx */,
+				FEA659F52287EFE400464846 /* 世界公园-35.gpx */,
+				FEA659F62287EFE400464846 /* 世界公园-21.gpx */,
+				FEA659F72287EFE400464846 /* 世界公园-20.gpx */,
+				FEA659F82287EFE400464846 /* 世界公园-34.gpx */,
+				FEA659F92287EFE400464846 /* 世界公园-53.gpx */,
+				FEA659FA2287EFE400464846 /* 世界公园-47.gpx */,
+				FEA659FB2287EFE400464846 /* 世界公园- 2.gpx */,
+				FEA659FC2287EFE400464846 /* 世界公园- 3.gpx */,
+				FEA659FD2287EFE400464846 /* 世界公园-46.gpx */,
+				FEA659FE2287EFE400464846 /* 世界公园-52.gpx */,
+				FEA659FF2287EFE400464846 /* 世界公园-44.gpx */,
+				FEA65A002287EFE400464846 /* 世界公园-50.gpx */,
+				FEA65A012287EFE400464846 /* 世界公园- 1.gpx */,
+				FEA65A022287EFE400464846 /* 世界公园- 0.gpx */,
+				FEA65A032287EFE400464846 /* 世界公园-51.gpx */,
+				FEA65A042287EFE400464846 /* 世界公园-45.gpx */,
+				FEA65A052287EFE400464846 /* 世界公园-41.gpx */,
+				FEA65A062287EFE400464846 /* 世界公园-55.gpx */,
+				FEA65A072287EFE400464846 /* 世界公园- 4.gpx */,
+				FEA65A082287EFE400464846 /* 世界公园- 5.gpx */,
+				FEA65A092287EFE400464846 /* 世界公园-54.gpx */,
+				FEA65A0A2287EFE400464846 /* 世界公园-40.gpx */,
+				FEA65A0B2287EFE400464846 /* 世界公园-56.gpx */,
+				FEA65A0C2287EFE400464846 /* 世界公园-42.gpx */,
+				FEA65A0D2287EFE400464846 /* 世界公园- 7.gpx */,
+				FEA65A0E2287EFE400464846 /* 世界公园- 6.gpx */,
+				FEA65A0F2287EFE400464846 /* 世界公园-43.gpx */,
+				FEA65A102287EFE400464846 /* 世界公园-57.gpx */,
+				FEA65A112287EFE400464846 /* 世界公园- 8.gpx */,
+				FEA65A122287EFE400464846 /* 世界公园- 9.gpx */,
+				FEA65A132287EFE400464846 /* 世界公园-58.gpx */,
+				FEA65A142287EFE400464846 /* 世界公园-48.gpx */,
+				FEA65A152287EFE400464846 /* 世界公园-49.gpx */,
+				FEA65A162287EFE400464846 /* 世界公园-11.gpx */,
+				FEA65A172287EFE400464846 /* 世界公园-39.gpx */,
+				FEA65A182287EFE400464846 /* 世界公园-38.gpx */,
+				FEA65A192287EFE400464846 /* 世界公园-10.gpx */,
+				FEA65A1A2287EFE400464846 /* 世界公园-12.gpx */,
+				FEA65A1B2287EFE400464846 /* 世界公园-13.gpx */,
+				FEA65A1C2287EFE400464846 /* 世界公园-17.gpx */,
+				FEA65A1D2287EFE400464846 /* 世界公园-16.gpx */,
+				FEA65A1E2287EFE400464846 /* 世界公园-28.gpx */,
+				FEA65A1F2287EFE400464846 /* 世界公园-14.gpx */,
+				FEA65A202287EFE400464846 /* 世界公园-15.gpx */,
+				FEA65A212287EFE400464846 /* 世界公园-29.gpx */,
+			);
+			name = "世界公园";
+			path = "locs/世界公园";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,50 +452,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA65A572287EFE500464846 /* 世界公园-17.gpx in Resources */,
+				FEA65A272287EFE500464846 /* 世界公园-31.gpx in Resources */,
 				8A9B50622282B3D70031A092 /* LaunchScreen.storyboard in Resources */,
-				8A9B51802283D0490031A092 /* 定位-25.gpx in Resources */,
-				8A9B517D2283D0490031A092 /* 定位- 4.gpx in Resources */,
-				8A9B516D2283D0490031A092 /* 定位-33.gpx in Resources */,
-				8A9B51622283D0490031A092 /* 定位- 8.gpx in Resources */,
-				8A9B516E2283D0490031A092 /* 定位-15.gpx in Resources */,
-				8A9B516F2283D0490031A092 /* 定位-16.gpx in Resources */,
-				8A9B51792283D0490031A092 /* 定位-31.gpx in Resources */,
-				8A9B51682283D0490031A092 /* 定位- 1.gpx in Resources */,
-				8A9B51702283D0490031A092 /* 定位-10.gpx in Resources */,
-				8A9B51722283D0490031A092 /* 定位-24.gpx in Resources */,
-				8A9B51772283D0490031A092 /* 定位-26.gpx in Resources */,
-				8A9B51612283D0490031A092 /* 定位- 6.gpx in Resources */,
-				8A9B516C2283D0490031A092 /* 定位-32.gpx in Resources */,
-				8A9B51692283D0490031A092 /* 定位-22.gpx in Resources */,
-				8A9B517B2283D0490031A092 /* 定位- 7.gpx in Resources */,
-				8A9B51602283D0490031A092 /* 定位- 2.gpx in Resources */,
-				8A9B51632283D0490031A092 /* 定位-36.gpx in Resources */,
-				8A9B51762283D0490031A092 /* 定位-13.gpx in Resources */,
-				8A9B517F2283D0490031A092 /* 定位- 0.gpx in Resources */,
-				8A9B51672283D0490031A092 /* 定位-29.gpx in Resources */,
-				8A9B515F2283D0490031A092 /* 定位-11.gpx in Resources */,
-				8A9B51652283D0490031A092 /* 定位- 3.gpx in Resources */,
-				8A9B51662283D0490031A092 /* 定位-20.gpx in Resources */,
-				8A9B517E2283D0490031A092 /* 定位-18.gpx in Resources */,
+				FEA65A342287EFE500464846 /* 世界公园-53.gpx in Resources */,
+				FEA65A472287EFE500464846 /* 世界公园-42.gpx in Resources */,
+				FEA65A462287EFE500464846 /* 世界公园-56.gpx in Resources */,
+				FEA65A392287EFE500464846 /* 世界公园-52.gpx in Resources */,
+				FEA65A232287EFE500464846 /* 世界公园-24.gpx in Resources */,
+				FEA65A352287EFE500464846 /* 世界公园-47.gpx in Resources */,
+				FEA65A522287EFE500464846 /* 世界公园-39.gpx in Resources */,
+				FEA65A452287EFE500464846 /* 世界公园-40.gpx in Resources */,
+				FEA65A3F2287EFE500464846 /* 世界公园-45.gpx in Resources */,
+				FEA65A282287EFE500464846 /* 世界公园-27.gpx in Resources */,
+				FEA65A312287EFE500464846 /* 世界公园-21.gpx in Resources */,
+				FEA65A412287EFE500464846 /* 世界公园-55.gpx in Resources */,
+				FEA65A2C2287EFE500464846 /* 世界公园-22.gpx in Resources */,
+				FEA65A3D2287EFE500464846 /* 世界公园- 0.gpx in Resources */,
+				FEA65A592287EFE500464846 /* 世界公园-28.gpx in Resources */,
+				FEA65A482287EFE500464846 /* 世界公园- 7.gpx in Resources */,
+				FEA65A372287EFE500464846 /* 世界公园- 3.gpx in Resources */,
 				8A9B505F2282B3D70031A092 /* Assets.xcassets in Resources */,
-				8A9B51862283D0490031A092 /* 定位-27.gpx in Resources */,
-				8A9B51732283D0490031A092 /* 定位-40.gpx in Resources */,
-				8A9B51852283D0490031A092 /* 定位-38.gpx in Resources */,
-				8A9B516B2283D0490031A092 /* 定位-19.gpx in Resources */,
-				8A9B51812283D0490031A092 /* 定位-14.gpx in Resources */,
-				8A9B517C2283D0490031A092 /* 定位-21.gpx in Resources */,
-				8A9B51832283D0490031A092 /* 定位-34.gpx in Resources */,
-				8A9B51842283D0490031A092 /* 定位-37.gpx in Resources */,
-				8A9B51642283D0490031A092 /* 定位-28.gpx in Resources */,
-				8A9B51712283D0490031A092 /* 定位- 5.gpx in Resources */,
-				8A9B51752283D0490031A092 /* 定位-17.gpx in Resources */,
-				8A9B51822283D0490031A092 /* 定位-35.gpx in Resources */,
+				FEA65A302287EFE500464846 /* 世界公园-35.gpx in Resources */,
+				FEA65A562287EFE500464846 /* 世界公园-13.gpx in Resources */,
+				FEA65A3A2287EFE500464846 /* 世界公园-44.gpx in Resources */,
+				FEA65A582287EFE500464846 /* 世界公园-16.gpx in Resources */,
+				FEA65A252287EFE500464846 /* 世界公园-19.gpx in Resources */,
+				FEA65A4D2287EFE500464846 /* 世界公园- 9.gpx in Resources */,
+				FEA65A242287EFE500464846 /* 世界公园-18.gpx in Resources */,
+				FEA65A3C2287EFE500464846 /* 世界公园- 1.gpx in Resources */,
+				FEA65A552287EFE500464846 /* 世界公园-12.gpx in Resources */,
+				FEA65A322287EFE500464846 /* 世界公园-20.gpx in Resources */,
+				FEA65A292287EFE500464846 /* 世界公园-33.gpx in Resources */,
+				FEA65A2F2287EFE500464846 /* 世界公园-23.gpx in Resources */,
+				FEA65A5A2287EFE500464846 /* 世界公园-14.gpx in Resources */,
+				FEA65A2B2287EFE500464846 /* 世界公园-26.gpx in Resources */,
+				FEA65A2E2287EFE500464846 /* 世界公园-37.gpx in Resources */,
+				FEA65A492287EFE500464846 /* 世界公园- 6.gpx in Resources */,
+				FEA65A422287EFE500464846 /* 世界公园- 4.gpx in Resources */,
+				FEA65A3E2287EFE500464846 /* 世界公园-51.gpx in Resources */,
+				FEA65A5C2287EFE500464846 /* 世界公园-29.gpx in Resources */,
 				8A9B505D2282B3C90031A092 /* Main.storyboard in Resources */,
-				8A9B516A2283D0490031A092 /* 定位-23.gpx in Resources */,
-				8A9B51872283D0490031A092 /* 定位-39.gpx in Resources */,
-				8A9B517A2283D0490031A092 /* 定位-12.gpx in Resources */,
-				8A9B51742283D0490031A092 /* 定位- 9.gpx in Resources */,
-				8A9B51782283D0490031A092 /* 定位-30.gpx in Resources */,
+				FEA65A402287EFE500464846 /* 世界公园-41.gpx in Resources */,
+				FEA65A532287EFE500464846 /* 世界公园-38.gpx in Resources */,
+				FEA65A362287EFE500464846 /* 世界公园- 2.gpx in Resources */,
+				FEA65A382287EFE500464846 /* 世界公园-46.gpx in Resources */,
+				FEA65A2A2287EFE500464846 /* 世界公园-32.gpx in Resources */,
+				FEA65A502287EFE500464846 /* 世界公园-49.gpx in Resources */,
+				FEA65A4C2287EFE500464846 /* 世界公园- 8.gpx in Resources */,
+				FEA65A4F2287EFE500464846 /* 世界公园-48.gpx in Resources */,
+				FEA65A2D2287EFE500464846 /* 世界公园-36.gpx in Resources */,
+				FEA65A5B2287EFE500464846 /* 世界公园-15.gpx in Resources */,
+				FEA65A3B2287EFE500464846 /* 世界公园-50.gpx in Resources */,
+				FEA65A332287EFE500464846 /* 世界公园-34.gpx in Resources */,
+				FEA65A432287EFE500464846 /* 世界公园- 5.gpx in Resources */,
+				FEA65A222287EFE500464846 /* 世界公园-30.gpx in Resources */,
+				FEA65A512287EFE500464846 /* 世界公园-11.gpx in Resources */,
+				FEA65A262287EFE500464846 /* 世界公园-25.gpx in Resources */,
+				FEA65A4B2287EFE500464846 /* 世界公园-57.gpx in Resources */,
+				FEA65A4E2287EFE500464846 /* 世界公园-58.gpx in Resources */,
+				FEA65A542287EFE500464846 /* 世界公园-10.gpx in Resources */,
+				FEA65A442287EFE500464846 /* 世界公园-54.gpx in Resources */,
+				FEA65A4A2287EFE500464846 /* 世界公园-43.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
