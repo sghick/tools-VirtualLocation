@@ -16,6 +16,7 @@
 		8A9B506F2282B3D70031A092 /* VirtualLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B506E2282B3D70031A092 /* VirtualLocationTests.m */; };
 		8A9B507A2282B3D70031A092 /* VirtualLocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B50792282B3D70031A092 /* VirtualLocationUITests.m */; };
 		8A9B508B2282D2CE0031A092 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B508A2282D2CE0031A092 /* WebViewController.m */; };
+		8A9B518F228A83E10031A092 /* 世界公园-37.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B518E228A83E10031A092 /* 世界公园-37.gpx */; };
 		C71D38B8BF6EFAA7BF787D7A /* Pods_VirtualLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C15879676C804C450F1FF7 /* Pods_VirtualLocation.framework */; };
 		FEA65AB222897D1F00464846 /* 西单-3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AAD22897D1F00464846 /* 西单-3.gpx */; };
 		FEA65AB322897D1F00464846 /* 西单-2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AAE22897D1F00464846 /* 西单-2.gpx */; };
@@ -95,6 +96,7 @@
 		8A9B507B2282B3D70031A092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A9B50892282D2CE0031A092 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		8A9B508A2282D2CE0031A092 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		8A9B518E228A83E10031A092 /* 世界公园-37.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-37.gpx"; sourceTree = "<group>"; };
 		AC445BAB24772F4668C4B5CE /* Pods-VirtualLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualLocation/Pods-VirtualLocation.release.xcconfig"; sourceTree = "<group>"; };
 		DF697C075FF6806ABD0E07C7 /* Pods-VirtualLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualLocation/Pods-VirtualLocation.debug.xcconfig"; sourceTree = "<group>"; };
 		FEA65AAD22897D1F00464846 /* 西单-3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "西单-3.gpx"; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 				FEA65AF82289A2A800464846 /* 世界公园-34.gpx */,
 				FEA65AFA2289A38600464846 /* 世界公园-35.gpx */,
 				FEA65AFC2289A63C00464846 /* 世界公园-36.gpx */,
+				8A9B518E228A83E10031A092 /* 世界公园-37.gpx */,
 			);
 			name = "世界公园";
 			path = "locs/世界公园";
@@ -441,6 +444,7 @@
 				FEA65AE1228998D200464846 /* 世界公园-26.gpx in Resources */,
 				FEA65AEC228998D200464846 /* 世界公园- 6.gpx in Resources */,
 				FEA65AF6228998D200464846 /* 世界公园-15.gpx in Resources */,
+				8A9B518F228A83E10031A092 /* 世界公园-37.gpx in Resources */,
 				FEA65AE4228998D200464846 /* 世界公园-21.gpx in Resources */,
 				FEA65AF92289A2A900464846 /* 世界公园-34.gpx in Resources */,
 			);
