@@ -21,6 +21,41 @@
 		FEA65AB322897D1F00464846 /* 西单-2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AAE22897D1F00464846 /* 西单-2.gpx */; };
 		FEA65AB522897D1F00464846 /* 西单-5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AB022897D1F00464846 /* 西单-5.gpx */; };
 		FEA65AB622897D1F00464846 /* 西单-4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AB122897D1F00464846 /* 西单-4.gpx */; };
+		FEA65AD8228998D200464846 /* 世界公园-30.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AB8228998D200464846 /* 世界公园-30.gpx */; };
+		FEA65AD9228998D200464846 /* 世界公园-24.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AB9228998D200464846 /* 世界公园-24.gpx */; };
+		FEA65ADA228998D200464846 /* 世界公园-18.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ABA228998D200464846 /* 世界公园-18.gpx */; };
+		FEA65ADB228998D200464846 /* 世界公园-19.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ABB228998D200464846 /* 世界公园-19.gpx */; };
+		FEA65ADC228998D200464846 /* 世界公园-25.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ABC228998D200464846 /* 世界公园-25.gpx */; };
+		FEA65ADD228998D200464846 /* 世界公园-31.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ABD228998D200464846 /* 世界公园-31.gpx */; };
+		FEA65ADE228998D200464846 /* 世界公园-27.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ABE228998D200464846 /* 世界公园-27.gpx */; };
+		FEA65ADF228998D200464846 /* 世界公园-33.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ABF228998D200464846 /* 世界公园-33.gpx */; };
+		FEA65AE0228998D200464846 /* 世界公园-32.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AC0228998D200464846 /* 世界公园-32.gpx */; };
+		FEA65AE1228998D200464846 /* 世界公园-26.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AC1228998D200464846 /* 世界公园-26.gpx */; };
+		FEA65AE2228998D200464846 /* 世界公园-22.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AC2228998D200464846 /* 世界公园-22.gpx */; };
+		FEA65AE3228998D200464846 /* 世界公园-23.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AC3228998D200464846 /* 世界公园-23.gpx */; };
+		FEA65AE4228998D200464846 /* 世界公园-21.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AC4228998D200464846 /* 世界公园-21.gpx */; };
+		FEA65AE5228998D200464846 /* 世界公园-20.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AC5228998D200464846 /* 世界公园-20.gpx */; };
+		FEA65AE6228998D200464846 /* 世界公园- 2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AC6228998D200464846 /* 世界公园- 2.gpx */; };
+		FEA65AE7228998D200464846 /* 世界公园- 3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AC7228998D200464846 /* 世界公园- 3.gpx */; };
+		FEA65AE8228998D200464846 /* 世界公园- 0.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AC8228998D200464846 /* 世界公园- 0.gpx */; };
+		FEA65AE9228998D200464846 /* 世界公园- 4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AC9228998D200464846 /* 世界公园- 4.gpx */; };
+		FEA65AEA228998D200464846 /* 世界公园- 5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ACA228998D200464846 /* 世界公园- 5.gpx */; };
+		FEA65AEB228998D200464846 /* 世界公园- 7.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ACB228998D200464846 /* 世界公园- 7.gpx */; };
+		FEA65AEC228998D200464846 /* 世界公园- 6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ACC228998D200464846 /* 世界公园- 6.gpx */; };
+		FEA65AED228998D200464846 /* 世界公园- 9.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ACD228998D200464846 /* 世界公园- 9.gpx */; };
+		FEA65AEE228998D200464846 /* 世界公园-11.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ACE228998D200464846 /* 世界公园-11.gpx */; };
+		FEA65AEF228998D200464846 /* 世界公园-10.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65ACF228998D200464846 /* 世界公园-10.gpx */; };
+		FEA65AF0228998D200464846 /* 世界公园-12.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AD0228998D200464846 /* 世界公园-12.gpx */; };
+		FEA65AF1228998D200464846 /* 世界公园-13.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AD1228998D200464846 /* 世界公园-13.gpx */; };
+		FEA65AF2228998D200464846 /* 世界公园-17.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AD2228998D200464846 /* 世界公园-17.gpx */; };
+		FEA65AF3228998D200464846 /* 世界公园-16.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AD3228998D200464846 /* 世界公园-16.gpx */; };
+		FEA65AF4228998D200464846 /* 世界公园-28.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AD4228998D200464846 /* 世界公园-28.gpx */; };
+		FEA65AF5228998D200464846 /* 世界公园-14.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AD5228998D200464846 /* 世界公园-14.gpx */; };
+		FEA65AF6228998D200464846 /* 世界公园-15.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AD6228998D200464846 /* 世界公园-15.gpx */; };
+		FEA65AF7228998D200464846 /* 世界公园-29.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AD7228998D200464846 /* 世界公园-29.gpx */; };
+		FEA65AF92289A2A900464846 /* 世界公园-34.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AF82289A2A800464846 /* 世界公园-34.gpx */; };
+		FEA65AFB2289A38600464846 /* 世界公园-35.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AFA2289A38600464846 /* 世界公园-35.gpx */; };
+		FEA65AFD2289A63C00464846 /* 世界公园-36.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65AFC2289A63C00464846 /* 世界公园-36.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +101,41 @@
 		FEA65AAE22897D1F00464846 /* 西单-2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "西单-2.gpx"; sourceTree = "<group>"; };
 		FEA65AB022897D1F00464846 /* 西单-5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "西单-5.gpx"; sourceTree = "<group>"; };
 		FEA65AB122897D1F00464846 /* 西单-4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "西单-4.gpx"; sourceTree = "<group>"; };
+		FEA65AB8228998D200464846 /* 世界公园-30.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-30.gpx"; sourceTree = "<group>"; };
+		FEA65AB9228998D200464846 /* 世界公园-24.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-24.gpx"; sourceTree = "<group>"; };
+		FEA65ABA228998D200464846 /* 世界公园-18.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-18.gpx"; sourceTree = "<group>"; };
+		FEA65ABB228998D200464846 /* 世界公园-19.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-19.gpx"; sourceTree = "<group>"; };
+		FEA65ABC228998D200464846 /* 世界公园-25.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-25.gpx"; sourceTree = "<group>"; };
+		FEA65ABD228998D200464846 /* 世界公园-31.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-31.gpx"; sourceTree = "<group>"; };
+		FEA65ABE228998D200464846 /* 世界公园-27.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-27.gpx"; sourceTree = "<group>"; };
+		FEA65ABF228998D200464846 /* 世界公园-33.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-33.gpx"; sourceTree = "<group>"; };
+		FEA65AC0228998D200464846 /* 世界公园-32.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-32.gpx"; sourceTree = "<group>"; };
+		FEA65AC1228998D200464846 /* 世界公园-26.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-26.gpx"; sourceTree = "<group>"; };
+		FEA65AC2228998D200464846 /* 世界公园-22.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-22.gpx"; sourceTree = "<group>"; };
+		FEA65AC3228998D200464846 /* 世界公园-23.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-23.gpx"; sourceTree = "<group>"; };
+		FEA65AC4228998D200464846 /* 世界公园-21.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-21.gpx"; sourceTree = "<group>"; };
+		FEA65AC5228998D200464846 /* 世界公园-20.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-20.gpx"; sourceTree = "<group>"; };
+		FEA65AC6228998D200464846 /* 世界公园- 2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 2.gpx"; sourceTree = "<group>"; };
+		FEA65AC7228998D200464846 /* 世界公园- 3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 3.gpx"; sourceTree = "<group>"; };
+		FEA65AC8228998D200464846 /* 世界公园- 0.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 0.gpx"; sourceTree = "<group>"; };
+		FEA65AC9228998D200464846 /* 世界公园- 4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 4.gpx"; sourceTree = "<group>"; };
+		FEA65ACA228998D200464846 /* 世界公园- 5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 5.gpx"; sourceTree = "<group>"; };
+		FEA65ACB228998D200464846 /* 世界公园- 7.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 7.gpx"; sourceTree = "<group>"; };
+		FEA65ACC228998D200464846 /* 世界公园- 6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 6.gpx"; sourceTree = "<group>"; };
+		FEA65ACD228998D200464846 /* 世界公园- 9.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园- 9.gpx"; sourceTree = "<group>"; };
+		FEA65ACE228998D200464846 /* 世界公园-11.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-11.gpx"; sourceTree = "<group>"; };
+		FEA65ACF228998D200464846 /* 世界公园-10.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-10.gpx"; sourceTree = "<group>"; };
+		FEA65AD0228998D200464846 /* 世界公园-12.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-12.gpx"; sourceTree = "<group>"; };
+		FEA65AD1228998D200464846 /* 世界公园-13.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-13.gpx"; sourceTree = "<group>"; };
+		FEA65AD2228998D200464846 /* 世界公园-17.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-17.gpx"; sourceTree = "<group>"; };
+		FEA65AD3228998D200464846 /* 世界公园-16.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-16.gpx"; sourceTree = "<group>"; };
+		FEA65AD4228998D200464846 /* 世界公园-28.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-28.gpx"; sourceTree = "<group>"; };
+		FEA65AD5228998D200464846 /* 世界公园-14.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-14.gpx"; sourceTree = "<group>"; };
+		FEA65AD6228998D200464846 /* 世界公园-15.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-15.gpx"; sourceTree = "<group>"; };
+		FEA65AD7228998D200464846 /* 世界公园-29.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-29.gpx"; sourceTree = "<group>"; };
+		FEA65AF82289A2A800464846 /* 世界公园-34.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-34.gpx"; sourceTree = "<group>"; };
+		FEA65AFA2289A38600464846 /* 世界公园-35.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-35.gpx"; sourceTree = "<group>"; };
+		FEA65AFC2289A63C00464846 /* 世界公园-36.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园-36.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +202,7 @@
 				8A9B50562282B3C90031A092 /* AppDelegate.m */,
 				8A9B50582282B3C90031A092 /* ViewController.h */,
 				8A9B50592282B3C90031A092 /* ViewController.m */,
+				FEA65AB7228998D200464846 /* 世界公园 */,
 				FEA65AAC22897D1F00464846 /* 西单 */,
 				8A9B50892282D2CE0031A092 /* WebViewController.h */,
 				8A9B508A2282D2CE0031A092 /* WebViewController.m */,
@@ -180,6 +251,49 @@
 			);
 			name = "西单";
 			path = "locs/西单";
+			sourceTree = "<group>";
+		};
+		FEA65AB7228998D200464846 /* 世界公园 */ = {
+			isa = PBXGroup;
+			children = (
+				FEA65AB8228998D200464846 /* 世界公园-30.gpx */,
+				FEA65AB9228998D200464846 /* 世界公园-24.gpx */,
+				FEA65ABA228998D200464846 /* 世界公园-18.gpx */,
+				FEA65ABB228998D200464846 /* 世界公园-19.gpx */,
+				FEA65ABC228998D200464846 /* 世界公园-25.gpx */,
+				FEA65ABD228998D200464846 /* 世界公园-31.gpx */,
+				FEA65ABE228998D200464846 /* 世界公园-27.gpx */,
+				FEA65ABF228998D200464846 /* 世界公园-33.gpx */,
+				FEA65AC0228998D200464846 /* 世界公园-32.gpx */,
+				FEA65AC1228998D200464846 /* 世界公园-26.gpx */,
+				FEA65AC2228998D200464846 /* 世界公园-22.gpx */,
+				FEA65AC3228998D200464846 /* 世界公园-23.gpx */,
+				FEA65AC4228998D200464846 /* 世界公园-21.gpx */,
+				FEA65AC5228998D200464846 /* 世界公园-20.gpx */,
+				FEA65AC6228998D200464846 /* 世界公园- 2.gpx */,
+				FEA65AC7228998D200464846 /* 世界公园- 3.gpx */,
+				FEA65AC8228998D200464846 /* 世界公园- 0.gpx */,
+				FEA65AC9228998D200464846 /* 世界公园- 4.gpx */,
+				FEA65ACA228998D200464846 /* 世界公园- 5.gpx */,
+				FEA65ACB228998D200464846 /* 世界公园- 7.gpx */,
+				FEA65ACC228998D200464846 /* 世界公园- 6.gpx */,
+				FEA65ACD228998D200464846 /* 世界公园- 9.gpx */,
+				FEA65ACE228998D200464846 /* 世界公园-11.gpx */,
+				FEA65ACF228998D200464846 /* 世界公园-10.gpx */,
+				FEA65AD0228998D200464846 /* 世界公园-12.gpx */,
+				FEA65AD1228998D200464846 /* 世界公园-13.gpx */,
+				FEA65AD2228998D200464846 /* 世界公园-17.gpx */,
+				FEA65AD3228998D200464846 /* 世界公园-16.gpx */,
+				FEA65AD4228998D200464846 /* 世界公园-28.gpx */,
+				FEA65AD5228998D200464846 /* 世界公园-14.gpx */,
+				FEA65AD6228998D200464846 /* 世界公园-15.gpx */,
+				FEA65AD7228998D200464846 /* 世界公园-29.gpx */,
+				FEA65AF82289A2A800464846 /* 世界公园-34.gpx */,
+				FEA65AFA2289A38600464846 /* 世界公园-35.gpx */,
+				FEA65AFC2289A63C00464846 /* 世界公园-36.gpx */,
+			);
+			name = "世界公园";
+			path = "locs/世界公园";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,13 +401,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA65AE8228998D200464846 /* 世界公园- 0.gpx in Resources */,
+				FEA65AF5228998D200464846 /* 世界公园-14.gpx in Resources */,
+				FEA65AF3228998D200464846 /* 世界公园-16.gpx in Resources */,
+				FEA65AFD2289A63C00464846 /* 世界公园-36.gpx in Resources */,
+				FEA65ADF228998D200464846 /* 世界公园-33.gpx in Resources */,
+				FEA65ADB228998D200464846 /* 世界公园-19.gpx in Resources */,
 				FEA65AB522897D1F00464846 /* 西单-5.gpx in Resources */,
 				8A9B50622282B3D70031A092 /* LaunchScreen.storyboard in Resources */,
+				FEA65ADC228998D200464846 /* 世界公园-25.gpx in Resources */,
+				FEA65AEE228998D200464846 /* 世界公园-11.gpx in Resources */,
+				FEA65AED228998D200464846 /* 世界公园- 9.gpx in Resources */,
+				FEA65AF2228998D200464846 /* 世界公园-17.gpx in Resources */,
+				FEA65AE0228998D200464846 /* 世界公园-32.gpx in Resources */,
+				FEA65AE9228998D200464846 /* 世界公园- 4.gpx in Resources */,
+				FEA65AE7228998D200464846 /* 世界公园- 3.gpx in Resources */,
+				FEA65AE3228998D200464846 /* 世界公园-23.gpx in Resources */,
+				FEA65AF7228998D200464846 /* 世界公园-29.gpx in Resources */,
+				FEA65AF1228998D200464846 /* 世界公园-13.gpx in Resources */,
 				FEA65AB622897D1F00464846 /* 西单-4.gpx in Resources */,
+				FEA65AEF228998D200464846 /* 世界公园-10.gpx in Resources */,
+				FEA65ADE228998D200464846 /* 世界公园-27.gpx in Resources */,
+				FEA65AD8228998D200464846 /* 世界公园-30.gpx in Resources */,
 				FEA65AB322897D1F00464846 /* 西单-2.gpx in Resources */,
 				FEA65AB222897D1F00464846 /* 西单-3.gpx in Resources */,
+				FEA65AEB228998D200464846 /* 世界公园- 7.gpx in Resources */,
+				FEA65AF0228998D200464846 /* 世界公园-12.gpx in Resources */,
+				FEA65AE5228998D200464846 /* 世界公园-20.gpx in Resources */,
+				FEA65AD9228998D200464846 /* 世界公园-24.gpx in Resources */,
+				FEA65AE2228998D200464846 /* 世界公园-22.gpx in Resources */,
 				8A9B505F2282B3D70031A092 /* Assets.xcassets in Resources */,
+				FEA65AEA228998D200464846 /* 世界公园- 5.gpx in Resources */,
 				8A9B505D2282B3C90031A092 /* Main.storyboard in Resources */,
+				FEA65ADD228998D200464846 /* 世界公园-31.gpx in Resources */,
+				FEA65AF4228998D200464846 /* 世界公园-28.gpx in Resources */,
+				FEA65AE6228998D200464846 /* 世界公园- 2.gpx in Resources */,
+				FEA65ADA228998D200464846 /* 世界公园-18.gpx in Resources */,
+				FEA65AFB2289A38600464846 /* 世界公园-35.gpx in Resources */,
+				FEA65AE1228998D200464846 /* 世界公园-26.gpx in Resources */,
+				FEA65AEC228998D200464846 /* 世界公园- 6.gpx in Resources */,
+				FEA65AF6228998D200464846 /* 世界公园-15.gpx in Resources */,
+				FEA65AE4228998D200464846 /* 世界公园-21.gpx in Resources */,
+				FEA65AF92289A2A900464846 /* 世界公园-34.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

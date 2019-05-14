@@ -239,7 +239,7 @@ UITextFieldDelegate>
 }
 
 - (void)location1Click {
-    NSString *coorstr = [NSString stringWithFormat:@"39.8120469436,116.2898486853"];
+    NSString *coorstr = [NSString stringWithFormat:@"39.8128504699,116.2847471237"];
     self.valueTextField.text = coorstr;
     [self GD2GPSBtnClick];
 }
