@@ -239,7 +239,7 @@ UITextFieldDelegate>
 }
 
 - (void)location1Click {
-    NSString *coorstr = [NSString stringWithFormat:@"39.8128504699,116.2847471237"];
+    NSString *coorstr = [NSString stringWithFormat:@"39.8086843931,116.2923002243"];
     self.valueTextField.text = coorstr;
     [self GD2GPSBtnClick];
 }
@@ -254,6 +254,17 @@ UITextFieldDelegate>
 
 - (void)location4Click {
     
+}
+
+#pragma mark - Utils
+
+- (void)GD2GPS:(NSString *)text {
+    NSArray<NSString *> *ls = [text componentsSeparatedByString:@","];
+    CLLocationCoordinate2D coor = CLLocationCoordinate2DMake(ls.firstObject.doubleValue, ls.lastObject.doubleValue);
+    CLLocationCoordinate2D scoor = [SMRUtils transformFromGDToGPSWithCoordinate:coor];
+    NSString *result = [NSString stringWithFormat:@"高德:%@\n<wpt lat='%@' lon='%@'></wpt>", text, @(scoor.latitude), @(scoor.longitude)];
+    printf("%s\n", [result cStringUsingEncoding:NSUTF8StringEncoding]);
+    self.statusLabel.text = result;
 }
 
 #pragma mark - Getters

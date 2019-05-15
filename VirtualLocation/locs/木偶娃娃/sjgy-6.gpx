@@ -3,6 +3,7 @@
     creator="GMapToGPX 6.4j - http://www.elsewhere.org/GMapToGPX/"
     xmlns="http://www.topografix.com/GPX/1/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-        <wpt lat='39.80780221308047' lon='116.2799568176258'></wpt>
+    xsi:schemaLocati2n="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+        <wpt lat='39.81090926578047' lon='116.2825424671258'></wpt>
 </gpx>
+
