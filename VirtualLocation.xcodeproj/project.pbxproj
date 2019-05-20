@@ -62,6 +62,24 @@
 		FEA65C9B228CE19200464846 /* sjgy-coww-34.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65C90228CE19200464846 /* sjgy-coww-34.gpx */; };
 		FEA65C9C228CE19200464846 /* sjgy-coww-36.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65C91228CE19200464846 /* sjgy-coww-36.gpx */; };
 		FEA65C9D228CE19200464846 /* sjgy-coww-39.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65C92228CE19200464846 /* sjgy-coww-39.gpx */; };
+		FEA65CA6228FD5F600464846 /* sjgy-yry-4的副本 5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65C9E228FD5F500464846 /* sjgy-yry-4的副本 5.gpx */; };
+		FEA65CA7228FD5F600464846 /* sjgy-yry-4的副本 7.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65C9F228FD5F500464846 /* sjgy-yry-4的副本 7.gpx */; };
+		FEA65CA8228FD5F600464846 /* sjgy-yry-7.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CA0228FD5F500464846 /* sjgy-yry-7.gpx */; };
+		FEA65CA9228FD5F600464846 /* sjgy-yry-5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CA1228FD5F500464846 /* sjgy-yry-5.gpx */; };
+		FEA65CAA228FD5F600464846 /* sjgy-yry-6..gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CA2228FD5F600464846 /* sjgy-yry-6..gpx */; };
+		FEA65CAB228FD5F600464846 /* sjgy-yry-4的副本.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CA3228FD5F600464846 /* sjgy-yry-4的副本.gpx */; };
+		FEA65CAC228FD5F600464846 /* sjgy-yry-4的副本 6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CA4228FD5F600464846 /* sjgy-yry-4的副本 6.gpx */; };
+		FEA65CAD228FD5F600464846 /* sjgy-yry-4的副本 8.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CA5228FD5F600464846 /* sjgy-yry-4的副本 8.gpx */; };
+		FEA65CB5228FF7D800464846 /* 定位- 3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CB4228FF7D500464846 /* 定位- 3.gpx */; };
+		FEA65CBC2291679F00464846 /* a001的副本 2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CB72291679F00464846 /* a001的副本 2.gpx */; };
+		FEA65CBD2291679F00464846 /* a001.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CB82291679F00464846 /* a001.gpx */; };
+		FEA65CBE2291679F00464846 /* a001的副本 3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CB92291679F00464846 /* a001的副本 3.gpx */; };
+		FEA65CBF2291679F00464846 /* a001的副本 4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CBA2291679F00464846 /* a001的副本 4.gpx */; };
+		FEA65CC02291679F00464846 /* a001的副本.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA65CBB2291679F00464846 /* a001的副本.gpx */; };
+		FED5B8692292E6E300432D01 /* 西单-3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B8652292E6E300432D01 /* 西单-3.gpx */; };
+		FED5B86A2292E6E300432D01 /* 西单-2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B8662292E6E300432D01 /* 西单-2.gpx */; };
+		FED5B86B2292E6E300432D01 /* 西单-5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B8672292E6E300432D01 /* 西单-5.gpx */; };
+		FED5B86C2292E6E300432D01 /* 西单-4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B8682292E6E300432D01 /* 西单-4.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +166,24 @@
 		FEA65C90228CE19200464846 /* sjgy-coww-34.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sjgy-coww-34.gpx"; sourceTree = "<group>"; };
 		FEA65C91228CE19200464846 /* sjgy-coww-36.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sjgy-coww-36.gpx"; sourceTree = "<group>"; };
 		FEA65C92228CE19200464846 /* sjgy-coww-39.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sjgy-coww-39.gpx"; sourceTree = "<group>"; };
+		FEA65C9E228FD5F500464846 /* sjgy-yry-4的副本 5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sjgy-yry-4的副本 5.gpx"; sourceTree = "<group>"; };
+		FEA65C9F228FD5F500464846 /* sjgy-yry-4的副本 7.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sjgy-yry-4的副本 7.gpx"; sourceTree = "<group>"; };
+		FEA65CA0228FD5F500464846 /* sjgy-yry-7.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sjgy-yry-7.gpx"; sourceTree = "<group>"; };
+		FEA65CA1228FD5F500464846 /* sjgy-yry-5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sjgy-yry-5.gpx"; sourceTree = "<group>"; };
+		FEA65CA2228FD5F600464846 /* sjgy-yry-6..gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sjgy-yry-6..gpx"; sourceTree = "<group>"; };
+		FEA65CA3228FD5F600464846 /* sjgy-yry-4的副本.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sjgy-yry-4的副本.gpx"; sourceTree = "<group>"; };
+		FEA65CA4228FD5F600464846 /* sjgy-yry-4的副本 6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sjgy-yry-4的副本 6.gpx"; sourceTree = "<group>"; };
+		FEA65CA5228FD5F600464846 /* sjgy-yry-4的副本 8.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sjgy-yry-4的副本 8.gpx"; sourceTree = "<group>"; };
+		FEA65CB4228FF7D500464846 /* 定位- 3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "定位- 3.gpx"; path = "locs/丰台/定位- 3.gpx"; sourceTree = "<group>"; };
+		FEA65CB72291679F00464846 /* a001的副本 2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "a001的副本 2.gpx"; sourceTree = "<group>"; };
+		FEA65CB82291679F00464846 /* a001.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = a001.gpx; sourceTree = "<group>"; };
+		FEA65CB92291679F00464846 /* a001的副本 3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "a001的副本 3.gpx"; sourceTree = "<group>"; };
+		FEA65CBA2291679F00464846 /* a001的副本 4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "a001的副本 4.gpx"; sourceTree = "<group>"; };
+		FEA65CBB2291679F00464846 /* a001的副本.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "a001的副本.gpx"; sourceTree = "<group>"; };
+		FED5B8652292E6E300432D01 /* 西单-3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "西单-3.gpx"; sourceTree = "<group>"; };
+		FED5B8662292E6E300432D01 /* 西单-2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "西单-2.gpx"; sourceTree = "<group>"; };
+		FED5B8672292E6E300432D01 /* 西单-5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "西单-5.gpx"; sourceTree = "<group>"; };
+		FED5B8682292E6E300432D01 /* 西单-4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "西单-4.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +252,9 @@
 				8A9B50592282B3C90031A092 /* ViewController.m */,
 				8A9B50892282D2CE0031A092 /* WebViewController.h */,
 				8A9B508A2282D2CE0031A092 /* WebViewController.m */,
+				FEA65CB4228FF7D500464846 /* 定位- 3.gpx */,
+				FED5B8642292E6E300432D01 /* 西单 */,
+				FEA65CB62291679F00464846 /* 团战 */,
 				FEA65C71228CDA5600464846 /* 瓷偶娃娃 */,
 				FEA65C62228CDA4C00464846 /* 木偶娃娃 */,
 				FEA65C59228CDA4200464846 /* 颜如玉 */,
@@ -293,6 +332,14 @@
 				FEA65C5B228CDA4200464846 /* sjgy-yry-2.gpx */,
 				FEA65C5C228CDA4200464846 /* sjgy-yry-1.gpx */,
 				FEA65C5D228CDA4200464846 /* sjgy-yry-4.gpx */,
+				FEA65CA1228FD5F500464846 /* sjgy-yry-5.gpx */,
+				FEA65CA2228FD5F600464846 /* sjgy-yry-6..gpx */,
+				FEA65CA0228FD5F500464846 /* sjgy-yry-7.gpx */,
+				FEA65C9E228FD5F500464846 /* sjgy-yry-4的副本 5.gpx */,
+				FEA65CA4228FD5F600464846 /* sjgy-yry-4的副本 6.gpx */,
+				FEA65C9F228FD5F500464846 /* sjgy-yry-4的副本 7.gpx */,
+				FEA65CA5228FD5F600464846 /* sjgy-yry-4的副本 8.gpx */,
+				FEA65CA3228FD5F600464846 /* sjgy-yry-4的副本.gpx */,
 			);
 			name = "颜如玉";
 			path = "locs/颜如玉";
@@ -330,6 +377,31 @@
 			);
 			name = "瓷偶娃娃";
 			path = "locs/瓷偶娃娃";
+			sourceTree = "<group>";
+		};
+		FEA65CB62291679F00464846 /* 团战 */ = {
+			isa = PBXGroup;
+			children = (
+				FEA65CB82291679F00464846 /* a001.gpx */,
+				FEA65CBB2291679F00464846 /* a001的副本.gpx */,
+				FEA65CB72291679F00464846 /* a001的副本 2.gpx */,
+				FEA65CB92291679F00464846 /* a001的副本 3.gpx */,
+				FEA65CBA2291679F00464846 /* a001的副本 4.gpx */,
+			);
+			name = "团战";
+			path = "locs/团战";
+			sourceTree = "<group>";
+		};
+		FED5B8642292E6E300432D01 /* 西单 */ = {
+			isa = PBXGroup;
+			children = (
+				FED5B8652292E6E300432D01 /* 西单-3.gpx */,
+				FED5B8662292E6E300432D01 /* 西单-2.gpx */,
+				FED5B8672292E6E300432D01 /* 西单-5.gpx */,
+				FED5B8682292E6E300432D01 /* 西单-4.gpx */,
+			);
+			name = "西单";
+			path = "locs/西单";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,24 +509,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA65CAB228FD5F600464846 /* sjgy-yry-4的副本.gpx in Resources */,
+				FEA65CA6228FD5F600464846 /* sjgy-yry-4的副本 5.gpx in Resources */,
+				FED5B86C2292E6E300432D01 /* 西单-4.gpx in Resources */,
+				FEA65CAA228FD5F600464846 /* sjgy-yry-6..gpx in Resources */,
 				FEA65C55228CD81C00464846 /* 世界公园-17.gpx in Resources */,
 				FEA65C94228CE19200464846 /* sjgy-coww-42.gpx in Resources */,
 				FEA65C54228CD81C00464846 /* 世界公园-13.gpx in Resources */,
+				FEA65CBE2291679F00464846 /* a001的副本 3.gpx in Resources */,
 				FEA65C95228CE19200464846 /* sjgy-coww-33.gpx in Resources */,
 				FEA65C49228CD81C00464846 /* 世界公园- 0.gpx in Resources */,
 				FEA65C6C228CDA4C00464846 /* sjgy-4.gpx in Resources */,
+				FEA65CA8228FD5F600464846 /* sjgy-yry-7.gpx in Resources */,
+				FED5B86B2292E6E300432D01 /* 西单-5.gpx in Resources */,
 				FEA65C44228CD81C00464846 /* 世界公园-21.gpx in Resources */,
 				FEA65C9C228CE19200464846 /* sjgy-coww-36.gpx in Resources */,
 				FEA65C53228CD81C00464846 /* 世界公园-12.gpx in Resources */,
 				FEA65C6D228CDA4C00464846 /* sjgy-0.gpx in Resources */,
 				FEA65C93228CE19200464846 /* sjgy-coww-41.gpx in Resources */,
 				FEA65C61228CDA4200464846 /* sjgy-yry-4.gpx in Resources */,
+				FEA65CAC228FD5F600464846 /* sjgy-yry-4的副本 6.gpx in Resources */,
 				FEA65C6A228CDA4C00464846 /* sjgy-6.gpx in Resources */,
 				FEA65C6B228CDA4C00464846 /* sjgy-5.gpx in Resources */,
+				FED5B8692292E6E300432D01 /* 西单-3.gpx in Resources */,
 				FEA65C45228CD81C00464846 /* 世界公园-20.gpx in Resources */,
 				FEA65C97228CE19200464846 /* sjgy-coww-40.gpx in Resources */,
 				FEA65C47228CD81C00464846 /* 世界公园- 3.gpx in Resources */,
+				FEA65CC02291679F00464846 /* a001的副本.gpx in Resources */,
 				FEA65C46228CD81C00464846 /* 世界公园- 2.gpx in Resources */,
+				FEA65CBC2291679F00464846 /* a001的副本 2.gpx in Resources */,
 				FEA65C51228CD81C00464846 /* 世界公园-11.gpx in Resources */,
 				FEA65C4D228CD81C00464846 /* 世界公园- 6.gpx in Resources */,
 				FEA65C98228CE19200464846 /* sjgy-coww-37.gpx in Resources */,
@@ -471,14 +554,21 @@
 				FEA65C4C228CD81C00464846 /* 世界公园- 7.gpx in Resources */,
 				FEA65C4B228CD81C00464846 /* 世界公园- 5.gpx in Resources */,
 				FEA65C9A228CE19200464846 /* sjgy-coww-38.gpx in Resources */,
+				FEA65CBD2291679F00464846 /* a001.gpx in Resources */,
+				FEA65CA7228FD5F600464846 /* sjgy-yry-4的副本 7.gpx in Resources */,
 				FEA65C58228CD81C00464846 /* 世界公园-15.gpx in Resources */,
 				8A9B505F2282B3D70031A092 /* Assets.xcassets in Resources */,
+				FEA65CBF2291679F00464846 /* a001的副本 4.gpx in Resources */,
 				FEA65C96228CE19200464846 /* sjgy-coww-35.gpx in Resources */,
 				FEA65C57228CD81C00464846 /* 世界公园-14.gpx in Resources */,
 				FEA65C42228CD81C00464846 /* 世界公园-19.gpx in Resources */,
 				FEA65C5F228CDA4200464846 /* sjgy-yry-2.gpx in Resources */,
+				FEA65CAD228FD5F600464846 /* sjgy-yry-4的副本 8.gpx in Resources */,
 				FEA65C48228CD81C00464846 /* 世界公园- 1.gpx in Resources */,
+				FEA65CA9228FD5F600464846 /* sjgy-yry-5.gpx in Resources */,
 				8A9B505D2282B3C90031A092 /* Main.storyboard in Resources */,
+				FED5B86A2292E6E300432D01 /* 西单-2.gpx in Resources */,
+				FEA65CB5228FF7D800464846 /* 定位- 3.gpx in Resources */,
 				FEA65C52228CD81C00464846 /* 世界公园-10.gpx in Resources */,
 				FEA65C5E228CDA4200464846 /* sjgy-yry-3.gpx in Resources */,
 				FEA65C4E228CD81C00464846 /* 世界公园- 8.gpx in Resources */,
@@ -755,6 +845,7 @@
 			baseConfigurationReference = DF697C075FF6806ABD0E07C7 /* Pods-VirtualLocation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4U92X5J5QF;
 				INFOPLIST_FILE = VirtualLocation/Info.plist;
@@ -763,8 +854,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumrise.VirtualLocation1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumrise.test.location22300..........690101.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -774,6 +866,7 @@
 			baseConfigurationReference = AC445BAB24772F4668C4B5CE /* Pods-VirtualLocation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4U92X5J5QF;
 				INFOPLIST_FILE = VirtualLocation/Info.plist;
@@ -782,8 +875,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumrise.VirtualLocation1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumrise.test.location22300..........690101.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
