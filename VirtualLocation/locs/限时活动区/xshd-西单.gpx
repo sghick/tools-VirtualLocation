@@ -6,5 +6,6 @@
     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <!--        <wpt lat='39.90921118918985' lon='116.366376876857'></wpt>-->
 <!--        <wpt lat='39.90990657988984' lon='116.369161009757'></wpt>-->
-        <wpt lat='39.90810019548984' lon='116.369370222057'></wpt>
+<!--        <wpt lat='39.90810019548984' lon='116.369370222057'></wpt>-->
+        <wpt lat='39.80878296898047' lon='116.2803859710258'></wpt>
 </gpx>
