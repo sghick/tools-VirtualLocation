@@ -27,7 +27,7 @@ UITextFieldDelegate>
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationView.backBtnHidden = YES;
-    self.navigationView.title = @"虚拟定位";
+    self.navigationView.title = @"手动虚拟定位";
     
     [self.view addSubview:self.statusLabel];
     [self.view addSubview:self.typeField];

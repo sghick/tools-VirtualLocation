@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import <SMRBaseCore/SMRBaseCore.h>
 #import "SMRNavigationController.h"
+#import "SwipLocationController.h"
+#import "MapLocationController.h"
 #import "ViewController.h"
 #import "WebViewController.h"
 
@@ -23,18 +25,28 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
+    MapLocationController *map = [[MapLocationController alloc] init];
+    map.isMainPage = YES;
+    SMRNavigationController *navMap = [[SMRNavigationController alloc] initWithRootViewController:map];
+    navMap.tabBarItem.title = @"地图";
+    
+    SwipLocationController *swipe = [[SwipLocationController alloc] init];
+    swipe.isMainPage = YES;
+    SMRNavigationController *navSwipe = [[SMRNavigationController alloc] initWithRootViewController:swipe];
+    navSwipe.tabBarItem.title = @"方向";
+    
     ViewController *main = [[ViewController alloc] init];
-    main.tabBarItem.title = @"定位";
     main.isMainPage = YES;
     SMRNavigationController *navMain = [[SMRNavigationController alloc] initWithRootViewController:main];
+    navMain.tabBarItem.title = @"定位";
     
     WebViewController *web = [[WebViewController alloc] init];
     web.isMainPage = YES;
-    web.tabBarItem.title = @"坐标";
     SMRNavigationController *navWeb = [[SMRNavigationController alloc] initWithRootViewController:web];
+    navWeb.tabBarItem.title = @"坐标";
     
     UITabBarController *tabBar = [[UITabBarController alloc] init];
-    tabBar.viewControllers = @[navMain, navWeb];
+    tabBar.viewControllers = @[navSwipe, navMain, navWeb];
     
     self.window.rootViewController = tabBar;
     [self.window makeKeyAndVisible];
