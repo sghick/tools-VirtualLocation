@@ -208,8 +208,8 @@
         _typeField.leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
         _typeField.leftViewMode = UITextFieldViewModeAlways;
         _typeField.clearButtonMode = UITextFieldViewModeAlways;
-        _typeField.text = @"39.8150549682,116.2902724743"; // 世界公园
-//        _typeField.text = @"39.9106291424,116.3732868433"; // 大悦城
+//        _typeField.text = @"39.8150549682,116.2902724743"; // 世界公园
+        _typeField.text = @"39.9106291424,116.3732868433"; // 大悦城
 //        _typeField.text = @"40.9892484231,117.9441922903"; // 承德
         _curlocation = [self coordinate2DWithText:_typeField.text];
     }
