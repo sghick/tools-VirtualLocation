@@ -12,13 +12,15 @@
 
 @property (strong, nonatomic) UITextView *statusLabel;
 @property (strong, nonatomic) UITextField *typeField;
+@property (strong, nonatomic) UITextField *typeEndField;
 @property (strong, nonatomic) UIButton *applyButton;
 @property (strong, nonatomic) UIButton *pauseButton;
 
 @property (assign, nonatomic) CLLocationCoordinate2D curlocation;
+@property (assign, nonatomic) CLLocationCoordinate2D endlocation;
 
-@property (assign, nonatomic) CGFloat step;
-@property (assign, nonatomic) NSInteger count;
+@property (assign, nonatomic) CGFloat step; ///< 作用于方向移动和点-点移动
+@property (assign, nonatomic) NSInteger count; ///< 仅对方向移动有效
 
 @end
 
@@ -32,16 +34,26 @@
     
     [self.view addSubview:self.statusLabel];
     [self.view addSubview:self.typeField];
+    [self.view addSubview:self.typeEndField];
     [self.view addSubview:self.applyButton];
     [self.view addSubview:self.pauseButton];
     
     self.step = 0.0001;
-    self.count = 10;
+    self.count = 1;
+//    @"39.8150549682,116.2902724743" // 世界公园
+//    @"39.9106291424,116.3732868433" // 大悦城
+//    @"40.9892484231,117.9441922903" // 承德
+//    @"39.9267077219,116.3891601563" // 北海公园
+    _typeField.text = @"39.9267118357,116.3891440630"; // 方向的起点
+    _curlocation = [self coordinate2DWithText:_typeField.text];
+    _typeEndField.text = @"39.9243504796,116.3893318176";
+    _endlocation = [self coordinate2DWithText:_typeEndField.text];
     
     self.statusLabel.frame = CGRectMake(20, self.navigationView.bottom + 10, SCREEN_WIDTH - 2*20, 80);
     self.typeField.frame = CGRectMake(20, self.statusLabel.bottom + 10, SCREEN_WIDTH - 2*20, 40);
-    self.applyButton.frame = CGRectMake(20, self.typeField.bottom + 10, 200, 40);
-    self.pauseButton.frame = CGRectMake(self.applyButton.right + 20, self.typeField.bottom + 10, SCREEN_WIDTH - self.applyButton.right - 2*20, 40);
+    self.typeEndField.frame = CGRectMake(20, self.typeField.bottom + 10, SCREEN_WIDTH - 2*20, 40);
+    self.applyButton.frame = CGRectMake(20, self.typeEndField.bottom + 10, 200, 40);
+    self.pauseButton.frame = CGRectMake(self.applyButton.right + 20, self.typeEndField.bottom + 10, SCREEN_WIDTH - self.applyButton.right - 2*20, 40);
     
     [self strokeControlButtons];
 }
@@ -113,39 +125,85 @@
      return arc4random()%10000*0.000001*self.step;
 }
 
+#pragma mark - Fast
+
+- (void)o:(NSString *)f t:(NSString *)t {
+    CLLocationCoordinate2D fromCoor = [self coordinate2DWithText:f];
+    CLLocationCoordinate2D toCoor = [self coordinate2DWithText:t];
+    [self newCoordinate2DFromCoor:fromCoor toCoor:toCoor];
+}
+
+- (void)o:(NSInteger)f {
+    [self newCoordinate2DWithNumber:f];
+}
+
+- (void)l:(NSString *)t {
+    [self p_sychStatusTextWithCoor:[self coordinate2DWithText:t]];
+}
+
+#pragma mark - Functions
+
+- (void)newCoordinate2DWithNumber:(NSInteger)number {
+    CLLocationCoordinate2D scoor = [self p_newCoordinate2DWithNumber:number];
+    self.typeField.text = [self textWithCoordinate2D:scoor];
+}
+
+- (void)newCoordinate2DFromCoor:(CLLocationCoordinate2D)fromCoor toCoor:(CLLocationCoordinate2D)toCoor {
+    [self p_newCoordinate2DFromCoor:fromCoor toCoor:toCoor];
+}
+
 #pragma mark - Private
 
-- (void)o:(NSInteger)number {
-    [self p_newCoordinate2DWithNumber:number];
+/// 计算某个方向的移动轨迹,返回最后一个转换前的点
+- (CLLocationCoordinate2D)p_newCoordinate2DWithNumber:(NSInteger)number {
+    CLLocationCoordinate2D fromCoor = [self coordinate2DWithText:self.typeField.text];
+    CLLocationCoordinate2D toCoor = [self p_newCoordinate2DWithNumber:number fromCoor:fromCoor step:self.step count:self.count];
+    [self p_newCoordinate2DFromCoor:fromCoor toCoor:toCoor];
+    return toCoor;
 }
 
-- (void)p_newCoordinate2DWithNumber:(NSInteger)number {
-    [self p_newCoordinate2DWithBlock:^CLLocationCoordinate2D(CLLocationCoordinate2D coor) {
-        switch (number) {
-            case 7: return CLLocationCoordinate2DMake(coor.latitude + self.step, coor.longitude - self.step); break;
-            case 8: return CLLocationCoordinate2DMake(coor.latitude + self.step, coor.longitude); break;
-            case 9: return CLLocationCoordinate2DMake(coor.latitude + self.step, coor.longitude + self.step); break;
-            case 4: return CLLocationCoordinate2DMake(coor.latitude, coor.longitude - self.step); break;
-            case 5: return self.curlocation; break;
-            case 6: return CLLocationCoordinate2DMake(coor.latitude, coor.longitude + self.step); break;
-            case 1: return CLLocationCoordinate2DMake(coor.latitude - self.step, coor.longitude - self.step); break;
-            case 2: return CLLocationCoordinate2DMake(coor.latitude - self.step, coor.longitude); break;
-            case 3: return CLLocationCoordinate2DMake(coor.latitude - self.step, coor.longitude + self.step); break;
-            default: break;
-        }
-        return kCLLocationCoordinate2DInvalid;
-    }];
-}
-
-- (void)p_newCoordinate2DWithBlock:(CLLocationCoordinate2D (^)(CLLocationCoordinate2D coor))block {
-    CLLocationCoordinate2D coor = [self coordinate2DWithText:self.typeField.text];
-    if (block) {
-        CLLocationCoordinate2D ncoor = block(coor);
-        ncoor = CLLocationCoordinate2DMake(ncoor.latitude + [self randomEnd], ncoor.longitude + [self randomEnd]);
-        self.typeField.text = [self textWithCoordinate2D:ncoor];
-        CLLocationCoordinate2D scoor = [self transformFromToGPSWithCoordinate:ncoor];
-        self.statusLabel.text = [self textOfGPXWithCoordinate2D:scoor];
+- (CLLocationCoordinate2D)p_newCoordinate2DWithNumber:(NSInteger)number fromCoor:(CLLocationCoordinate2D)fromCoor step:(double)step count:(NSInteger)count {
+    double offset = step*count;
+    switch (number) {
+        case 7: return CLLocationCoordinate2DMake(fromCoor.latitude + offset, fromCoor.longitude - offset); break;
+        case 8: return CLLocationCoordinate2DMake(fromCoor.latitude + offset, fromCoor.longitude); break;
+        case 9: return CLLocationCoordinate2DMake(fromCoor.latitude + offset, fromCoor.longitude + offset); break;
+        case 4: return CLLocationCoordinate2DMake(fromCoor.latitude, fromCoor.longitude - offset); break;
+        case 5: return fromCoor; break;
+        case 6: return CLLocationCoordinate2DMake(fromCoor.latitude, fromCoor.longitude + offset); break;
+        case 1: return CLLocationCoordinate2DMake(fromCoor.latitude - offset, fromCoor.longitude - offset); break;
+        case 2: return CLLocationCoordinate2DMake(fromCoor.latitude - offset, fromCoor.longitude); break;
+        case 3: return CLLocationCoordinate2DMake(fromCoor.latitude - offset, fromCoor.longitude + offset); break;
+        default: break;
     }
+    return kCLLocationCoordinate2DInvalid;
+}
+
+/// 计算2个点之间的轨迹
+- (void)p_newCoordinate2DFromCoor:(CLLocationCoordinate2D)fromCoor toCoor:(CLLocationCoordinate2D)toCoor {
+    double fit = 10000;
+    double absla = toCoor.latitude - fromCoor.latitude;
+    double abslo = toCoor.longitude - fromCoor.longitude;
+    double abspa = hypot(ABS(absla), ABS(abslo));
+    NSInteger count = (NSInteger)(abspa/self.step);
+    if (count == 0) {
+        NSLog(@"两点间距离太近,请设置合适的step");
+        return;
+    }
+    double stepOfLa = absla*fit/count;
+    double stepOfLo = abslo*fit/count;
+    
+    for (int i = 0; i < count; i++) {
+        CLLocationCoordinate2D nCoor = CLLocationCoordinate2DMake(fromCoor.latitude + i*stepOfLa/fit,
+                                                                  fromCoor.longitude + i*stepOfLo/fit);
+        [self p_sychStatusTextWithCoor:nCoor];
+    }
+}
+
+- (CLLocationCoordinate2D)p_sychStatusTextWithCoor:(CLLocationCoordinate2D)coor {
+    CLLocationCoordinate2D scoor = [self transformFromToGPSWithCoordinate:coor];
+    self.statusLabel.text = [self textOfGPXWithCoordinate2D:scoor];
+    return scoor;
 }
 
 - (void)p_printSenderTitle:(UIButton *)sender {
@@ -164,18 +222,22 @@
 
 - (void)applyButtonAction:(UIButton *)sender {
     self.curlocation = [self coordinate2DWithText:self.typeField.text];
+    self.endlocation = [self coordinate2DWithText:self.typeEndField.text];
 }
 
 - (void)pauseButtonAction:(UIButton *)sender {
-    
+    CLLocationCoordinate2D fromCoor = [self coordinate2DWithText:self.typeField.text];
+    CLLocationCoordinate2D toCoor = [self coordinate2DWithText:self.typeEndField.text];
+    [self newCoordinate2DFromCoor:fromCoor toCoor:toCoor];
 }
 
 - (void)buttonAction:(UIButton *)sender {
-    for (int i = 0; i < self.count; i++) {
-        [self p_printSenderTitle:sender];
-        [self p_newCoordinate2DWithNumber:sender.tag];
-    }
+    [self p_printSenderTitle:sender];
+    [self newCoordinate2DWithNumber:sender.tag];
     if (sender.tag == 5) {
+        self.typeField.text = [self textWithCoordinate2D:self.curlocation];
+        self.typeEndField.text = [self textWithCoordinate2D:self.endlocation];
+        [self p_sychStatusTextWithCoor:[self coordinate2DWithText:self.typeField.text]];
         for (UIView *subView in self.view.subviews) {
             if ((subView.tag > 0) && (subView.tag < 10)) {
                 [subView removeFromSuperview];
@@ -208,13 +270,24 @@
         _typeField.leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
         _typeField.leftViewMode = UITextFieldViewModeAlways;
         _typeField.clearButtonMode = UITextFieldViewModeAlways;
-//        _typeField.text = @"39.8150549682,116.2902724743"; // 世界公园
-        _typeField.text = @"39.9106291424,116.3732868433"; // 大悦城
-//        _typeField.text = @"40.9892484231,117.9441922903"; // 承德
-        _curlocation = [self coordinate2DWithText:_typeField.text];
     }
     return _typeField;
 }
+
+- (UITextField *)typeEndField {
+    if (!_typeEndField) {
+        _typeEndField = [[UITextField alloc] init];
+        _typeEndField.font = [UIFont systemFontOfSize:15];
+        _typeEndField.placeholder = @"输入终点坐标(高德)";
+        _typeEndField.textColor = [UIColor grayColor];
+        _typeEndField.backgroundColor = [UIColor groupTableViewBackgroundColor];
+        _typeEndField.leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
+        _typeEndField.leftViewMode = UITextFieldViewModeAlways;
+        _typeEndField.clearButtonMode = UITextFieldViewModeAlways;
+    }
+    return _typeEndField;
+}
+
 
 - (UIButton *)applyButton {
     if (!_applyButton) {
@@ -234,7 +307,7 @@
     if (!_pauseButton) {
         _pauseButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [_pauseButton addTarget:self action:@selector(pauseButtonAction:) forControlEvents:UIControlEventTouchUpInside];
-        [_pauseButton setTitle:@"暂停" forState:UIControlStateNormal];
+        [_pauseButton setTitle:@"计算路径" forState:UIControlStateNormal];
         [_pauseButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _pauseButton.backgroundColor = [UIColor smr_colorWithHexRGB:@"#BBBBBB"];
         _pauseButton.layer.cornerRadius = 3;
