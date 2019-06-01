@@ -51,14 +51,14 @@
 		FEA52081229C2A56006D9B19 /* 世界公园-15.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA5206A229C2A56006D9B19 /* 世界公园-15.gpx */; };
 		FEA5208422A17DAB006D9B19 /* SwipLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA5208322A17DAB006D9B19 /* SwipLocationController.m */; };
 		FEA5208922A18065006D9B19 /* MapLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA5208822A18065006D9B19 /* MapLocationController.m */; };
-		FEA5208B22A18DDF006D9B19 /* 啊定位移动器.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA5208A22A18DDF006D9B19 /* 啊定位移动器.gpx */; };
+		FEA5208B22A18DDF006D9B19 /* 承德轨迹.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA5208A22A18DDF006D9B19 /* 承德轨迹.gpx */; };
 		FED5BA7422996EBC00432D01 /* 承德摊位.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B9DC22996EBB00432D01 /* 承德摊位.gpx */; };
 		FED5BA7522996EBC00432D01 /* 天津摊位.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B9DD22996EBB00432D01 /* 天津摊位.gpx */; };
 		FED5BA7622996EBC00432D01 /* 成都摊位.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B9DE22996EBB00432D01 /* 成都摊位.gpx */; };
 		FED5BA7722996EBC00432D01 /* 上海摊位.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B9DF22996EBB00432D01 /* 上海摊位.gpx */; };
 		FED5BA7822996EBC00432D01 /* 广州摊位.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B9E022996EBB00432D01 /* 广州摊位.gpx */; };
-		FED5BA7922996EBC00432D01 /* 檐上喵.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B9E122996EBB00432D01 /* 檐上喵.gpx */; };
-		FED5BA7A22996EBC00432D01 /* 莫邪.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B9E222996EBB00432D01 /* 莫邪.gpx */; };
+		FED5BA7922996EBC00432D01 /* 北京轨迹.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B9E122996EBB00432D01 /* 北京轨迹.gpx */; };
+		FED5BA7A22996EBC00432D01 /* 北京sjgy.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B9E222996EBB00432D01 /* 北京sjgy.gpx */; };
 		FED5BA7C22996EBC00432D01 /* xshd-世界公园.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B9E522996EBB00432D01 /* xshd-世界公园.gpx */; };
 		FED5BA7E22996EBC00432D01 /* xshd-科怡路.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FED5B9E722996EBB00432D01 /* xshd-科怡路.gpx */; };
 /* End PBXBuildFile section */
@@ -138,14 +138,14 @@
 		FEA5208322A17DAB006D9B19 /* SwipLocationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipLocationController.m; sourceTree = "<group>"; };
 		FEA5208722A18065006D9B19 /* MapLocationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapLocationController.h; sourceTree = "<group>"; };
 		FEA5208822A18065006D9B19 /* MapLocationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapLocationController.m; sourceTree = "<group>"; };
-		FEA5208A22A18DDF006D9B19 /* 啊定位移动器.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "啊定位移动器.gpx"; sourceTree = "<group>"; };
+		FEA5208A22A18DDF006D9B19 /* 承德轨迹.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "承德轨迹.gpx"; sourceTree = "<group>"; };
 		FED5B9DC22996EBB00432D01 /* 承德摊位.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "承德摊位.gpx"; sourceTree = "<group>"; };
 		FED5B9DD22996EBB00432D01 /* 天津摊位.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "天津摊位.gpx"; sourceTree = "<group>"; };
 		FED5B9DE22996EBB00432D01 /* 成都摊位.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "成都摊位.gpx"; sourceTree = "<group>"; };
 		FED5B9DF22996EBB00432D01 /* 上海摊位.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "上海摊位.gpx"; sourceTree = "<group>"; };
 		FED5B9E022996EBB00432D01 /* 广州摊位.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "广州摊位.gpx"; sourceTree = "<group>"; };
-		FED5B9E122996EBB00432D01 /* 檐上喵.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "檐上喵.gpx"; sourceTree = "<group>"; };
-		FED5B9E222996EBB00432D01 /* 莫邪.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "莫邪.gpx"; sourceTree = "<group>"; };
+		FED5B9E122996EBB00432D01 /* 北京轨迹.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "北京轨迹.gpx"; sourceTree = "<group>"; };
+		FED5B9E222996EBB00432D01 /* 北京sjgy.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "北京sjgy.gpx"; sourceTree = "<group>"; };
 		FED5B9E522996EBB00432D01 /* xshd-世界公园.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "xshd-世界公园.gpx"; sourceTree = "<group>"; };
 		FED5B9E722996EBB00432D01 /* xshd-科怡路.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "xshd-科怡路.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -220,7 +220,6 @@
 				8A9B50592282B3C90031A092 /* ViewController.m */,
 				8A9B50892282D2CE0031A092 /* WebViewController.h */,
 				8A9B508A2282D2CE0031A092 /* WebViewController.m */,
-				FEA5208A22A18DDF006D9B19 /* 啊定位移动器.gpx */,
 				FEA52053229C2A56006D9B19 /* dg-世界公园 */,
 				FEA51F8E229A05C2006D9B19 /* 大鼓 */,
 				FEA51F93229A05C2006D9B19 /* 擂台 */,
@@ -319,13 +318,14 @@
 		FED5B9DB22996EBB00432D01 /* 摊位 */ = {
 			isa = PBXGroup;
 			children = (
+				FEA5208A22A18DDF006D9B19 /* 承德轨迹.gpx */,
 				FED5B9DC22996EBB00432D01 /* 承德摊位.gpx */,
 				FED5B9DD22996EBB00432D01 /* 天津摊位.gpx */,
 				FED5B9DE22996EBB00432D01 /* 成都摊位.gpx */,
 				FED5B9DF22996EBB00432D01 /* 上海摊位.gpx */,
 				FED5B9E022996EBB00432D01 /* 广州摊位.gpx */,
-				FED5B9E122996EBB00432D01 /* 檐上喵.gpx */,
-				FED5B9E222996EBB00432D01 /* 莫邪.gpx */,
+				FED5B9E122996EBB00432D01 /* 北京轨迹.gpx */,
+				FED5B9E222996EBB00432D01 /* 北京sjgy.gpx */,
 			);
 			name = "摊位";
 			path = "locs/摊位";
@@ -448,7 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEA51F9E229A05C2006D9B19 /* lt-北海公园.gpx in Resources */,
-				FED5BA7922996EBC00432D01 /* 檐上喵.gpx in Resources */,
+				FED5BA7922996EBC00432D01 /* 北京轨迹.gpx in Resources */,
 				FEA51F99229A05C2006D9B19 /* dg-科怡路.gpx in Resources */,
 				FEA5206D229C2A56006D9B19 /* 世界公园-21.gpx in Resources */,
 				FEA5207D229C2A56006D9B19 /* 世界公园-13.gpx in Resources */,
@@ -478,14 +478,14 @@
 				FEA51F9A229A05C2006D9B19 /* dg-世界公园.gpx in Resources */,
 				FEA52072229C2A56006D9B19 /* 世界公园- 0.gpx in Resources */,
 				FEA52081229C2A56006D9B19 /* 世界公园-15.gpx in Resources */,
-				FED5BA7A22996EBC00432D01 /* 莫邪.gpx in Resources */,
+				FED5BA7A22996EBC00432D01 /* 北京sjgy.gpx in Resources */,
 				FEA51F9C229A05C2006D9B19 /* lt-西单.gpx in Resources */,
 				FEA51F9B229A05C2006D9B19 /* dg-西单.gpx in Resources */,
 				FEA51F9F229A05C2006D9B19 /* lt-世界公园.gpx in Resources */,
 				FEA5207B229C2A56006D9B19 /* 世界公园-10.gpx in Resources */,
 				FEA5207E229C2A56006D9B19 /* 世界公园-17.gpx in Resources */,
 				FEA51F8D229A0403006D9B19 /* xshd-西单.gpx in Resources */,
-				FEA5208B22A18DDF006D9B19 /* 啊定位移动器.gpx in Resources */,
+				FEA5208B22A18DDF006D9B19 /* 承德轨迹.gpx in Resources */,
 				FEA5207A229C2A56006D9B19 /* 世界公园-11.gpx in Resources */,
 				FEA52071229C2A56006D9B19 /* 世界公园- 1.gpx in Resources */,
 				FED5BA7622996EBC00432D01 /* 成都摊位.gpx in Resources */,

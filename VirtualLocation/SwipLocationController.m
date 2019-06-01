@@ -18,6 +18,7 @@
 @property (assign, nonatomic) CLLocationCoordinate2D curlocation;
 
 @property (assign, nonatomic) CGFloat step;
+@property (assign, nonatomic) NSInteger count;
 
 @end
 
@@ -34,22 +35,27 @@
     [self.view addSubview:self.applyButton];
     [self.view addSubview:self.pauseButton];
     
-    self.step = 0.0015;
+    self.step = 0.0001;
+    self.count = 10;
     
     self.statusLabel.frame = CGRectMake(20, self.navigationView.bottom + 10, SCREEN_WIDTH - 2*20, 80);
     self.typeField.frame = CGRectMake(20, self.statusLabel.bottom + 10, SCREEN_WIDTH - 2*20, 40);
     self.applyButton.frame = CGRectMake(20, self.typeField.bottom + 10, 200, 40);
     self.pauseButton.frame = CGRectMake(self.applyButton.right + 20, self.typeField.bottom + 10, SCREEN_WIDTH - self.applyButton.right - 2*20, 40);
     
-    NSArray<UIButton *> *array = @[[self buttonWithTitle:@"↖️" action:@selector(button7Action:)],
-                                   [self buttonWithTitle:@"⬆️" action:@selector(button8Action:)],
-                                   [self buttonWithTitle:@"↗️" action:@selector(button9Action:)],
-                                   [self buttonWithTitle:@"⬅️" action:@selector(button4Action:)],
-                                   [self buttonWithTitle:@"🔄" action:@selector(button5Action:)],
-                                   [self buttonWithTitle:@"➡️" action:@selector(button6Action:)],
-                                   [self buttonWithTitle:@"↙️" action:@selector(button1Action:)],
-                                   [self buttonWithTitle:@"⬇️" action:@selector(button2Action:)],
-                                   [self buttonWithTitle:@"↘️" action:@selector(button3Action:)]];
+    [self strokeControlButtons];
+}
+
+- (void)strokeControlButtons {
+    NSArray<UIButton *> *array = @[[self buttonWithTitle:@"↖️" action:@selector(buttonAction:) tag:7],
+                                   [self buttonWithTitle:@"⬆️" action:@selector(buttonAction:) tag:8],
+                                   [self buttonWithTitle:@"↗️" action:@selector(buttonAction:) tag:9],
+                                   [self buttonWithTitle:@"⬅️" action:@selector(buttonAction:) tag:4],
+                                   [self buttonWithTitle:@"🔄" action:@selector(buttonAction:) tag:5],
+                                   [self buttonWithTitle:@"➡️" action:@selector(buttonAction:) tag:6],
+                                   [self buttonWithTitle:@"↙️" action:@selector(buttonAction:) tag:1],
+                                   [self buttonWithTitle:@"⬇️" action:@selector(buttonAction:) tag:2],
+                                   [self buttonWithTitle:@"↘️" action:@selector(buttonAction:) tag:3]];
     CGRect showBounds = CGRectMake(75, self.applyButton.bottom + 40, SCREEN_WIDTH - 2*75, SCREEN_HEIGHT);
     CGSize cellSize = CGSizeMake(80, 80);
     SMRMatrixCalculator *calculator = [SMRMatrixCalculator calculatorForVerticalWithBounds:showBounds
@@ -72,11 +78,12 @@
 
 #pragma mark - Utils
 
-- (UIButton *)buttonWithTitle:(NSString *)title action:(SEL)action {
+- (UIButton *)buttonWithTitle:(NSString *)title action:(SEL)action tag:(NSInteger)tag {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
     [btn setTitle:title forState:UIControlStateNormal];
     [btn addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];
     btn.titleLabel.numberOfLines = 0;
+    btn.tag = tag;
     return btn;
 }
 
@@ -93,13 +100,17 @@
 
 - (NSString *)textOfGPXWithCoordinate2D:(CLLocationCoordinate2D)coor {
     NSString *result = [NSString stringWithFormat:@"<wpt lat='%@' lon='%@'></wpt>", @(coor.latitude), @(coor.longitude)];
-//    printf("%s\n", [result cStringUsingEncoding:NSUTF8StringEncoding]);
-    printf("<!-- %s -->\n", [result cStringUsingEncoding:NSUTF8StringEncoding]);
+    printf("%s\n", [result cStringUsingEncoding:NSUTF8StringEncoding]);
+//    printf("<!-- %s -->\n", [result cStringUsingEncoding:NSUTF8StringEncoding]);
     return result;
 }
 
 - (CLLocationCoordinate2D)transformFromToGPSWithCoordinate:(CLLocationCoordinate2D)coordinate {
     return [SMRUtils transformFromGDToGPSWithCoordinate:coordinate];
+}
+
+- (double)randomEnd {
+     return arc4random()%10000*0.000001*self.step;
 }
 
 #pragma mark - Private
@@ -130,6 +141,7 @@
     CLLocationCoordinate2D coor = [self coordinate2DWithText:self.typeField.text];
     if (block) {
         CLLocationCoordinate2D ncoor = block(coor);
+        ncoor = CLLocationCoordinate2DMake(ncoor.latitude + [self randomEnd], ncoor.longitude + [self randomEnd]);
         self.typeField.text = [self textWithCoordinate2D:ncoor];
         CLLocationCoordinate2D scoor = [self transformFromToGPSWithCoordinate:ncoor];
         self.statusLabel.text = [self textOfGPXWithCoordinate2D:scoor];
@@ -137,7 +149,15 @@
 }
 
 - (void)p_printSenderTitle:(UIButton *)sender {
-    printf("<!-- %s -->\n", [sender.titleLabel.text UTF8String]);
+    NSString *firstChar = [sender.titleLabel.text substringToIndex:1];
+//    printf("<!-- %s -->\n", [firstChar UTF8String]);
+    if (sender.tag == 5) {
+        return;
+    }
+    NSString *lastChar = [[sender.titleLabel.text substringFromIndex:1] stringByReplacingOccurrencesOfString:@"\n" withString:@""];
+    NSInteger count = lastChar.integerValue + 1;
+    NSString *nTitle = [NSString stringWithFormat:@"%@\n%@", firstChar, @(count)];
+    [sender setTitle:nTitle forState:UIControlStateNormal];
 }
 
 #pragma mark - Actions
@@ -150,50 +170,19 @@
     
 }
 
-// ↖️
-- (void)button7Action:(UIButton *)sender {
-    [self p_printSenderTitle:sender];
-    [self p_newCoordinate2DWithNumber:7];
-}
-// ⬆️
-- (void)button8Action:(UIButton *)sender {
-    [self p_printSenderTitle:sender];
-    [self p_newCoordinate2DWithNumber:8];
-}
-// ↗️
-- (void)button9Action:(UIButton *)sender {
-    [self p_printSenderTitle:sender];
-    [self p_newCoordinate2DWithNumber:9];
-}
-// ⬅️
-- (void)button4Action:(UIButton *)sender {
-    [self p_printSenderTitle:sender];
-    [self p_newCoordinate2DWithNumber:4];
-}
-// 🔄
-- (void)button5Action:(UIButton *)sender {
-    [self p_printSenderTitle:sender];
-    [self p_newCoordinate2DWithNumber:5];
-}
-// ➡️
-- (void)button6Action:(UIButton *)sender {
-    [self p_printSenderTitle:sender];
-    [self p_newCoordinate2DWithNumber:6];
-}
-// ↙️
-- (void)button1Action:(UIButton *)sender {
-    [self p_printSenderTitle:sender];
-    [self p_newCoordinate2DWithNumber:1];
-}
-// ⬇️
-- (void)button2Action:(UIButton *)sender {
-    [self p_printSenderTitle:sender];
-    [self p_newCoordinate2DWithNumber:2];
-}
-// ↘️
-- (void)button3Action:(UIButton *)sender {
-    [self p_printSenderTitle:sender];
-    [self p_newCoordinate2DWithNumber:3];
+- (void)buttonAction:(UIButton *)sender {
+    for (int i = 0; i < self.count; i++) {
+        [self p_printSenderTitle:sender];
+        [self p_newCoordinate2DWithNumber:sender.tag];
+    }
+    if (sender.tag == 5) {
+        for (UIView *subView in self.view.subviews) {
+            if ((subView.tag > 0) && (subView.tag < 10)) {
+                [subView removeFromSuperview];
+            }
+        }
+        [self strokeControlButtons];
+    }
 }
 
 #pragma mark - Getters
@@ -219,8 +208,9 @@
         _typeField.leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
         _typeField.leftViewMode = UITextFieldViewModeAlways;
         _typeField.clearButtonMode = UITextFieldViewModeAlways;
+        _typeField.text = @"39.8150549682,116.2902724743"; // 世界公园
 //        _typeField.text = @"39.9106291424,116.3732868433"; // 大悦城
-        _typeField.text = @"40.9892484231,117.9441922903"; // 承德
+//        _typeField.text = @"40.9892484231,117.9441922903"; // 承德
         _curlocation = [self coordinate2DWithText:_typeField.text];
     }
     return _typeField;
