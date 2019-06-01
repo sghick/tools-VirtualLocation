@@ -4,6 +4,5 @@
     xmlns="http://www.topografix.com/GPX/1/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<!--        <wpt lat='40.9855189694' lon='117.9397559166'></wpt>-->
-        <wpt lat='40.9865189694' lon='117.9387559166'></wpt>
+<wpt lat='40.98005783110469' lon='117.9350938796953'></wpt>
 </gpx>

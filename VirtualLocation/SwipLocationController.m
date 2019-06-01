@@ -39,14 +39,14 @@
     [self.view addSubview:self.pauseButton];
     
     self.step = 0.0001;
-    self.count = 1;
+    self.count = 10;
 //    @"39.8150549682,116.2902724743" // 世界公园
 //    @"39.9106291424,116.3732868433" // 大悦城
 //    @"40.9892484231,117.9441922903" // 承德
 //    @"39.9267077219,116.3891601563" // 北海公园
-    _typeField.text = @"39.9267118357,116.3891440630"; // 方向的起点
+    _typeField.text = @"40.9815989688,117.9413652420"; // 方向的起点
     _curlocation = [self coordinate2DWithText:_typeField.text];
-    _typeEndField.text = @"39.9243504796,116.3893318176";
+    _typeEndField.text = @"40.9880295912,117.9500770569";
     _endlocation = [self coordinate2DWithText:_typeEndField.text];
     
     self.statusLabel.frame = CGRectMake(20, self.navigationView.bottom + 10, SCREEN_WIDTH - 2*20, 80);
@@ -226,9 +226,40 @@
 }
 
 - (void)pauseButtonAction:(UIButton *)sender {
-    CLLocationCoordinate2D fromCoor = [self coordinate2DWithText:self.typeField.text];
-    CLLocationCoordinate2D toCoor = [self coordinate2DWithText:self.typeEndField.text];
-    [self newCoordinate2DFromCoor:fromCoor toCoor:toCoor];
+    NSArray<NSString *> *points = @[@"40.9816192173,117.9413491488",
+                                    @"40.9855270683,117.9412204027",
+                                    @"40.9869362676,117.9427063465",
+                                    @"40.9881794156,117.9440850019",
+                                    @"40.9905522648,117.9440206289",
+                                    @"40.9918034428,117.9447716475",
+                                    @"40.9921759572,117.9466170073",
+                                    @"40.9946336897,117.9467886686",
+                                    @"40.9959698156,117.9462200403",
+                                    @"40.9962289399,117.9440367222",
+                                    @"40.9960022062,117.9400938749",
+                                    @"40.9948199392,117.9391819239",
+                                    @"40.9936943365,117.9402655363",
+                                    @"40.9916414793,117.9411399364",
+                                    @"40.9897869695,117.9403620958",
+                                    @"40.9894751800,117.9415047169",
+                                    @"40.9851869123,117.9416710138",
+                                    @"40.9847252691,117.9412955046",
+                                    @"40.9833241217,117.9425185919",
+                                    @"40.9841137894,117.9423737526",
+                                    @"40.9835225519,117.9413545132",
+                                    @"40.9845470902,117.9415047169",
+                                    @"40.9830649467,117.9416817427",
+                                    @"40.9828138699,117.9429477453",
+                                    @"40.9815544220,117.9429852962"];
+    NSString *begin = self.typeField.text;
+    NSString *end = self.typeEndField.text;
+    for (int i = 0; i < points.count; i++) {
+        end = points[i];
+        CLLocationCoordinate2D fromCoor = [self coordinate2DWithText:begin];
+        CLLocationCoordinate2D toCoor = [self coordinate2DWithText:end];
+        [self newCoordinate2DFromCoor:fromCoor toCoor:toCoor];
+        begin = end;
+    }
 }
 
 - (void)buttonAction:(UIButton *)sender {
