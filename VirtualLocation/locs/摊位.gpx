@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gpx version="1.1"
+    creator="GMapToGPX 6.4j - http://www.elsewhere.org/GMapToGPX/"
+    xmlns="http://www.topografix.com/GPX/1/1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<!-- 天津(爆满)-->
+<!--<wpt lat='39.08644802560821' lon='117.2123451233035'></wpt>-->
+<!-- 沧州(中等)-->
+<!--<wpt lat='38.29803266407735' lon='116.8558120727289'></wpt>-->
+<!-- 承德(人少)-->
+<wpt lat='40.98279179691016' lon='117.9351828098008'></wpt>
+<!-- 葫芦岛 -->
+<!--<wpt lat='40.6723059715' lon='120.8715820313'></wpt>-->
+<!-- 北京西单 -->
+<!--<wpt lat='39.90918650068984' lon='116.366934776257'></wpt>-->
+<!-- 石家庄 -->
+<!--<wpt lat='38.0261882666' lon='114.5522117615'></wpt>-->
+<!-- 衡水 -->
+<!--<wpt lat='37.7194050518' lon='115.6939315796'></wpt>-->
+<!-- 德阳 -->
+<!--<wpt lat='31.1499445669' lon='104.4418716431'></wpt>-->
+<!-- 安阳 -->
+<!--<wpt lat='36.11291939632851' lon='114.4046407937613'></wpt>-->
+
+</gpx>

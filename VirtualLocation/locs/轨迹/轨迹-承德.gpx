@@ -4,7 +4,6 @@
     xmlns="http://www.topografix.com/GPX/1/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-    2019-06-01 23:51:38.106156+0800 VirtualLocation[8903:222427] 两点间距离太近,请设置合适的step
     <wpt lat='40.98007807960469' lon='117.9350777864953'></wpt>
     <wpt lat='40.98017828091238' lon='117.9350744853133'></wpt>
     <wpt lat='40.98027848222007' lon='117.9350711841312'></wpt>
