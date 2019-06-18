@@ -142,6 +142,7 @@
 				8A9B506D2282B3D70031A092 /* VirtualLocationTests */,
 				8A9B50782282B3D70031A092 /* VirtualLocationUITests */,
 				8A9B50532282B3C90031A092 /* Products */,
+				8A9B50642282B3D70031A092 /* main.m */,
 				313F7AA2C655E83184F7B2E6 /* Pods */,
 				BE3C0F11D374304C4112F51F /* Frameworks */,
 			);
@@ -179,7 +180,6 @@
 				8A9B505E2282B3D70031A092 /* Assets.xcassets */,
 				8A9B50602282B3D70031A092 /* LaunchScreen.storyboard */,
 				8A9B50632282B3D70031A092 /* Info.plist */,
-				8A9B50642282B3D70031A092 /* main.m */,
 			);
 			path = VirtualLocation;
 			sourceTree = "<group>";

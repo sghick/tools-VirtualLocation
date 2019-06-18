@@ -4,9 +4,9 @@
     xmlns="http://www.topografix.com/GPX/1/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<!--        <wpt lat='39.92440238910078' lon='116.382991313968'></wpt>-->
+        <wpt lat='39.92440238910078' lon='116.382991313968'></wpt>
 <!--        <wpt lat='39.92452610340352' lon='116.3867318630707'></wpt>-->
-        <wpt lat='39.92327959940351' lon='116.3904685973762'></wpt>
+<!--        <wpt lat='39.92327959940351' lon='116.3904685973762'></wpt>-->
 <!--        <wpt lat='39.91551590770078' lon='116.386842966068'></wpt>-->
 <!--        <wpt lat='39.92201661680352' lon='116.3870108127707'></wpt>-->
 <!--        <wpt lat='39.92187142989258' lon='116.3737039565652'></wpt>-->
