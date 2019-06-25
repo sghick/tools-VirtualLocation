@@ -16,6 +16,7 @@
 		8A9B507A2282B3D70031A092 /* VirtualLocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B50792282B3D70031A092 /* VirtualLocationUITests.m */; };
 		8A9B508B2282D2CE0031A092 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B508A2282D2CE0031A092 /* WebViewController.m */; };
 		C71D38B8BF6EFAA7BF787D7A /* Pods_VirtualLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C15879676C804C450F1FF7 /* Pods_VirtualLocation.framework */; };
+		FE49949522C254AB0056BD78 /* 轨迹-承德北.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE49949422C254AB0056BD78 /* 轨迹-承德北.gpx */; };
 		FE67109122A345E800258CEB /* 摊位.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE67109022A345E800258CEB /* 摊位.gpx */; };
 		FEA2BACB22A98781003C0FA4 /* 轨迹-西单大悦城2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA2BACA22A98781003C0FA4 /* 轨迹-西单大悦城2.gpx */; };
 		FEA2BACD22ACA64D003C0FA4 /* 轨迹-安阳.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA2BACC22ACA64D003C0FA4 /* 轨迹-安阳.gpx */; };
@@ -76,6 +77,7 @@
 		8A9B508A2282D2CE0031A092 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		AC445BAB24772F4668C4B5CE /* Pods-VirtualLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualLocation/Pods-VirtualLocation.release.xcconfig"; sourceTree = "<group>"; };
 		DF697C075FF6806ABD0E07C7 /* Pods-VirtualLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualLocation/Pods-VirtualLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		FE49949422C254AB0056BD78 /* 轨迹-承德北.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "轨迹-承德北.gpx"; sourceTree = "<group>"; };
 		FE67109022A345E800258CEB /* 摊位.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "摊位.gpx"; path = "locs/摊位.gpx"; sourceTree = "<group>"; };
 		FEA2BACA22A98781003C0FA4 /* 轨迹-西单大悦城2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "轨迹-西单大悦城2.gpx"; sourceTree = "<group>"; };
 		FEA2BACC22ACA64D003C0FA4 /* 轨迹-安阳.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "轨迹-安阳.gpx"; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 		FED5B9DB22996EBB00432D01 /* 轨迹 */ = {
 			isa = PBXGroup;
 			children = (
+				FE49949422C254AB0056BD78 /* 轨迹-承德北.gpx */,
 				FEA5208A22A18DDF006D9B19 /* 轨迹-承德.gpx */,
 				FED5B9DF22996EBB00432D01 /* 轨迹-西单大悦城.gpx */,
 				FEA2BACA22A98781003C0FA4 /* 轨迹-西单大悦城2.gpx */,
@@ -380,6 +383,7 @@
 				FE67109122A345E800258CEB /* 摊位.gpx in Resources */,
 				FEA51F9B229A05C2006D9B19 /* dg-西单.gpx in Resources */,
 				FEA2BACD22ACA64D003C0FA4 /* 轨迹-安阳.gpx in Resources */,
+				FE49949522C254AB0056BD78 /* 轨迹-承德北.gpx in Resources */,
 				FEA51F9F229A05C2006D9B19 /* lt-世界公园.gpx in Resources */,
 				FEA51F8D229A0403006D9B19 /* xshd-西单.gpx in Resources */,
 				FEA5208B22A18DDF006D9B19 /* 轨迹-承德.gpx in Resources */,

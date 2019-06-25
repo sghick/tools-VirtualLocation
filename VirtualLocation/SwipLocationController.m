@@ -217,34 +217,22 @@
 - (void)pauseButtonAction:(UIButton *)sender {
 //    (-16,-62)
     // 长途飞行
-//    self.step = 0.05;
-    _typeField.text = @"40.9813114389,117.9369932413"; // 方向的起点
-    _curlocation = [self coordinate2DWithText:_typeField.text];
-    _typeEndField.text = @"40.9813114389,117.9369932413";
-    _endlocation = [self coordinate2DWithText:_typeEndField.text];
+//    self.step = 0.35;
+//    _typeField.text = @"39.8069536044,116.2909698486"; // 方向的起点
+//    _curlocation = [self coordinate2DWithText:_typeField.text];
+//    _typeEndField.text = @"32.4159070323,105.7997131348";
+//    _endlocation = [self coordinate2DWithText:_typeEndField.text];
+//    CLLocationCoordinate2D fromCoor = [self coordinate2DWithText:_typeField.text];
+//    CLLocationCoordinate2D toCoor = [self coordinate2DWithText:_typeEndField.text];
+//    [self newCoordinate2DFromCoor:fromCoor toCoor:toCoor];
     
     // 短途旅游
-    self.step = 0.0001;
+    self.step = 0.0002;
     self.count = 1;
-    NSArray<NSString *> *points = @[@"36.1130986871,114.4107252359",
-                                    @"36.1140304212,114.4123989344",
-                                    @"36.1172632362,114.4126027822",
-                                    @"36.1190572611,114.4102638960",
-                                    @"36.1189099273,114.4059026241",
-                                    @"36.1173152375,114.4030809402",
-                                    @"36.1158808557,114.4023513794",
-                                    @"36.1142817708,114.3980598450",
-                                    @"36.1159068568,114.3973785639",
-                                    @"36.1191092612,114.3975126743",
-                                    @"36.1201882557,114.3925988674",
-                                    @"36.1200322575,114.3903779984",
-                                    @"36.1193909279,114.3867892027",
-                                    @"36.1227665159,114.3905925751",
-                                    @"36.1235248116,114.3891066313",
-                                    @"36.1202489217,114.3836027384",
-                                    @"36.1167735556,114.3812960386",
-                                    @"36.1184419239,114.3778252602",
-                                    @"36.1217092228,114.3741667271"];
+    NSArray<NSString *> *points = @[@"41.5496680281,120.4782199860",
+                                    @"41.5373017892,120.4887342453",
+                                    @"41.5306519507,120.5094623566",
+                                    @"41.5373981586,120.5104923248",];
     NSString *begin = points.firstObject;
     NSString *end = begin;
     for (int i = 0; i < points.count; i++) {
