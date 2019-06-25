@@ -5,8 +5,21 @@ import (
     "os"
 	"fmt"
 	"strings"
-    "strconv"
+	"strconv"
+    "io/ioutil"
+    "encoding/json"
+	"net/http"
 )
+
+type Resp struct {
+	Status int `json:"status"`
+	Locations []Location `json:"locations"`
+ }
+   
+type Location struct {
+	Latitude float64 `json:"lat"`
+	Longitude float64 `json:"lng"`
+ }   
 
 var _root string
 
@@ -32,17 +45,29 @@ func GetInput() {
  }
 
 func BeginRun(ipt string) bool {
-	var ipts = strings.Split(ipt, ",")
-	var laplus = -0.0016
-	var loplus = -0.0062
-	if len(ipts) >= 2 {
-		la, _ := strconv.ParseFloat(ipts[0], 64)
-		lo, _ := strconv.ParseFloat(ipts[1], 64)
-		lastr := strconv.FormatFloat(la + laplus, 'f', 10, 64)
-		lostr := strconv.FormatFloat(lo + loplus, 'f', 10, 64)
-		var result = "<wpt lat='" + lastr + "' lon='" + lostr + "'></wpt>"
-		fmt.Println(result);
-		return true
+	var key = "NWEBZ-UBAWQ-ZYX5R-GHVNF-2DPG2-OSFB7"
+	var url = "https://apis.map.qq.com/ws/coord/v1/translate?locations=" + ipt + "&type=5&key="+ key
+	httpResp, err := http.Get(url)
+	if err != nil {
+		fmt.Println(err)
+		return false
 	}
-	return false
+	defer httpResp.Body.Close()
+
+	bodyContent, err := ioutil.ReadAll(httpResp.Body)
+	if err != nil {
+		fmt.Println(err)
+		return false
+	}
+	resp := new(Resp)
+	json.Unmarshal(bodyContent, resp)
+	if (len(resp.Locations) <= 0) {
+		fmt.Println("data empty")
+		return false
+	}
+	latstr := strconv.FormatFloat(resp.Locations[0].Latitude, 'f', 10, 64)
+	lonstr := strconv.FormatFloat(resp.Locations[0].Longitude, 'f', 10, 64)
+	var result = "<wpt lat='" + latstr + "' lon='" + lonstr + "'></wpt>"
+	fmt.Println(result);
+	return true
  }
