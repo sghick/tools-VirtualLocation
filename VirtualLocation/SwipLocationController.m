@@ -218,9 +218,9 @@
 //    (-16,-62)
     // 长途飞行
 //    self.step = 0.05;
-    _typeField.text = @"40.9813114389,117.9369932413"; // 方向的起点
+    _typeField.text = @"41.8397693980,123.4307956696"; // 方向的起点
     _curlocation = [self coordinate2DWithText:_typeField.text];
-    _typeEndField.text = @"40.9813114389,117.9369932413";
+    _typeEndField.text = @"41.8397693980,123.4307956696";
     _endlocation = [self coordinate2DWithText:_typeEndField.text];
     
     // 短途旅游
