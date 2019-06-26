@@ -1,4 +1,4 @@
-package main
+package locationcoordinate2d
 
 import (
 	"strings"
@@ -10,7 +10,7 @@ type CLLocationCoordinate2D struct {
 	longitude float64
 }
 
-func CLLocationCoordinate2DMakeString(coorstr strings) {
+func CLLocationCoordinate2DMakeString(coorstr strings) CLLocationCoordinate2D {
 
 
     coor := new(CLLocationCoordinate2D)
@@ -19,30 +19,30 @@ func CLLocationCoordinate2DMakeString(coorstr strings) {
     return coor
 }
 
-func CLLocationCoordinate2DMake(latitude float64, longitude float64) {
+func CLLocationCoordinate2DMake(latitude float64, longitude float64) CLLocationCoordinate2D {
     coor := new(CLLocationCoordinate2D)
     coor.latitude = latitude
     coor.longitude = longitude
     return coor
 }
 
-func transformFromGPSToGDWithCoordinate(coordinate CLLocationCoordinate2D) {
+func transformFromGPSToGDWithCoordinate(coordinate CLLocationCoordinate2D) CLLocationCoordinate2D {
     return transformFromWGSToGCJ(coordinate)
 }
 
-func transformFromGDToBDWithCoordinate(coordinate CLLocationCoordinate2D) {
+func transformFromGDToBDWithCoordinate(coordinate CLLocationCoordinate2D) CLLocationCoordinate2D {
     return transformFromGCJToBaidu(coordinate)
 }
 
-func transformFromBDToGDWithCoordinate(coordinate CLLocationCoordinate2D) {
+func transformFromBDToGDWithCoordinate(coordinate CLLocationCoordinate2D) CLLocationCoordinate2D {
     return transformFromBaiduToGCJ(coordinate)
 }
 
-func transformFromGDToGPSWithCoordinate(coordinate CLLocationCoordinate2D) {
+func transformFromGDToGPSWithCoordinate(coordinate CLLocationCoordinate2D) CLLocationCoordinate2D {
     return transformFromGCJToWGS(coordinate)
 }
 
-func transformFromBDToGPSWithCoordinate(coordinate CLLocationCoordinate2D) {
+func transformFromBDToGPSWithCoordinate(coordinate CLLocationCoordinate2D) CLLocationCoordinate2D {
     return transformFromGCJToWGS(transformFromBaiduToGCJ(transformFromBaiduToGCJ))
 }
 
@@ -52,7 +52,7 @@ static const double pi = M_PI;
 static const double xPi = M_PI  * 3000.0 / 180.0;
 
 // 国际标准 -> 中国坐标偏移标准
-func transformFromWGSToGCJ(wgsLoc CLLocationCoordinate2D) {
+func transformFromWGSToGCJ(wgsLoc CLLocationCoordinate2D) CLLocationCoordinate2D {
     adjustLoc := new(CLLocationCoordinate2D)
     // 判断是国内
     if isLocationOutOfChina(wgsLoc) {
@@ -73,7 +73,7 @@ func transformFromWGSToGCJ(wgsLoc CLLocationCoordinate2D) {
     return adjustLoc;
 }
 
-func transformLat(x double, y double) {
+func transformLat(x double, y double) double {
     double lat = -100.0 + 2.0 * x + 3.0 * y + 0.2 * y * y + 0.1 * x * y + 0.2 * sqrt(fabs(x));
     
     lat += (20.0 * sin(6.0 * x * pi) + 20.0 *sin(2.0 * x * pi)) * 2.0 / 3.0;
@@ -82,7 +82,7 @@ func transformLat(x double, y double) {
     return lat;
 }
 
-func transformLon(x double, y double) {
+func transformLon(x double, y double) double {
     double lon = 300.0 + x + 2.0 * y + 0.1 * x * x + 0.1 * x * y + 0.1 * sqrt(fabs(x));
     lon += (20.0 * sin(6.0 * x * pi) + 20.0 * sin(2.0 * x * pi)) * 2.0 / 3.0;
     lon += (20.0 * sin(x * pi) + 40.0 * sin(x / 3.0 * pi)) * 2.0 / 3.0;
@@ -91,7 +91,7 @@ func transformLon(x double, y double) {
 }
 
 // 中国坐标偏移标准 -> 百度坐标偏移标准
-func transformFromGCJToBaidu(p CLLocationCoordinate2D) {
+func transformFromGCJToBaidu(p CLLocationCoordinate2D) CLLocationCoordinate2D {
     long double z = sqrt(p.longitude * p.longitude + p.latitude * p.latitude) + 0.00002 * sqrt(p.latitude * pi);
     long double theta = atan2(p.latitude, p.longitude) + 0.000003 * cos(p.longitude * pi);
     CLLocationCoordinate2D geoPoint;
@@ -101,7 +101,7 @@ func transformFromGCJToBaidu(p CLLocationCoordinate2D) {
 }
 
 // 百度坐标偏移标准 -> 中国坐标偏移标准
-func transformFromBaiduToGCJ(p CLLocationCoordinate2D) {
+func transformFromBaiduToGCJ(p CLLocationCoordinate2D) CLLocationCoordinate2D {
     double x = p.longitude - 0.0065, y = p.latitude - 0.006;
     double z = sqrt(x * x + y * y) - 0.00002 * sin(y * xPi);
     double theta = atan2(y, x) - 0.000003 * cos(x * xPi);
@@ -112,7 +112,7 @@ func transformFromBaiduToGCJ(p CLLocationCoordinate2D) {
 }
 
 // 中国坐标偏移标准 -> 国际标准
-func transformFromGCJToWGS(p CLLocationCoordinate2D) {
+func transformFromGCJToWGS(p CLLocationCoordinate2D) CLLocationCoordinate2D {
     double threshold = 0.00001;
     
     // The boundary
@@ -152,11 +152,11 @@ func transformFromGCJToWGS(p CLLocationCoordinate2D) {
     
 }
 
-func isContains(point CLLocationCoordinate2D, p1 CLLocationCoordinate2D, p2 CLLocationCoordinate2D) {
+func isContains(point CLLocationCoordinate2D, p1 CLLocationCoordinate2D, p2 CLLocationCoordinate2D) bool {
     return (point.latitude >= MIN(p1.latitude, p2.latitude) && point.latitude <= MAX(p1.latitude, p2.latitude)) && (point.longitude >= MIN(p1.longitude,p2.longitude) && point.longitude <= MAX(p1.longitude, p2.longitude));
 }
 
-func isLocationOutOfChina(location CLLocationCoordinate2D) {
+func isLocationOutOfChina(location CLLocationCoordinate2D) bool {
     if location.longitude < 72.004 || location.longitude > 137.8347 || location.latitude < 0.8293 || location.latitude > 55.8271
         return true
     return false

@@ -9,6 +9,7 @@ import (
     "io/ioutil"
     "encoding/json"
 	"net/http"
+	"./locationcoordinate2d"
 )
 
 type Resp struct {
@@ -45,6 +46,10 @@ func GetInput() {
  }
 
 func BeginRun(ipt string) bool {
+
+}
+
+func BeginRunFromServer(ipt string) bool {
 	var key = "NWEBZ-UBAWQ-ZYX5R-GHVNF-2DPG2-OSFB7"
 	var url = "https://apis.map.qq.com/ws/coord/v1/translate?locations=" + ipt + "&type=5&key="+ key
 	httpResp, err := http.Get(url)
