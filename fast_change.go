@@ -50,7 +50,7 @@ func GetInput() {
 func BeginRun(ipt string) bool {
 	var oid = "10396"
 	var key = "10254xu8uy49xv04uz22w65xuwxv29u0z68463"
-	var url = "http://api.gpsspg.com/convert/coord/?oid=" + oid + "&key="+ key + "&from=3&to=1&output=json" + "&latlng=" + ipt
+	var url = "http://api.gpsspg.com/convert/coord/?oid=" + oid + "&key="+ key + "&from=3&to=0&output=json" + "&latlng=" + ipt
 	httpResp, err := http.Get(url)
 	if err != nil {
 		fmt.Println(err)
@@ -65,7 +65,6 @@ func BeginRun(ipt string) bool {
 	}
 	resp := new(Resp)
 	json.Unmarshal(bodyContent, resp)
-	fmt.Println(resp)
 	if (len(resp.Locations) <= 0) {
 		fmt.Println("data empty")
 		return false
