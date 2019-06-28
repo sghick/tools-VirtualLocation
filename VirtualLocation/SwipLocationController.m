@@ -218,13 +218,14 @@
 //    (-16,-62)
     // 长途飞行
 //    self.step = 0.35;
-//    _typeField.text = @"39.8069536044,116.2909698486"; // 方向的起点
-//    _curlocation = [self coordinate2DWithText:_typeField.text];
-//    _typeEndField.text = @"32.4159070323,105.7997131348";
-//    _endlocation = [self coordinate2DWithText:_typeEndField.text];
-//    CLLocationCoordinate2D fromCoor = [self coordinate2DWithText:_typeField.text];
-//    CLLocationCoordinate2D toCoor = [self coordinate2DWithText:_typeEndField.text];
-//    [self newCoordinate2DFromCoor:fromCoor toCoor:toCoor];
+    _typeField.text = @"40.9856728490,117.9386186600"; // 方向的起点
+    _curlocation = [self coordinate2DWithText:_typeField.text];
+    _typeEndField.text = @"40.9856728490,117.9386186600";
+    _endlocation = [self coordinate2DWithText:_typeEndField.text];
+    CLLocationCoordinate2D fromCoor = [self coordinate2DWithText:_typeField.text];
+    CLLocationCoordinate2D toCoor = [self coordinate2DWithText:_typeEndField.text];
+    [self newCoordinate2DFromCoor:fromCoor toCoor:toCoor];
+    return;
     
     // 短途旅游
     self.step = 0.0002;

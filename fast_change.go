@@ -5,7 +5,7 @@ import (
     "os"
 	"fmt"
 	"strings"
-	"strconv"
+	// "strconv"
     "io/ioutil"
     "encoding/json"
 	"net/http"
@@ -13,12 +13,15 @@ import (
 
 type Resp struct {
 	Status int `json:"status"`
-	Locations []Location `json:"locations"`
+	Message string `json:"msg"`
+	Count int `json:"count"`
+	Locations []Location `json:"result"`
  }
    
 type Location struct {
-	Latitude float64 `json:"lat"`
-	Longitude float64 `json:"lng"`
+	Latitude string `json:"lat"`
+	Longitude string `json:"lng"`
+	Match string `json:"match"`
  }   
 
 var _root string
@@ -45,8 +48,9 @@ func GetInput() {
  }
 
 func BeginRun(ipt string) bool {
-	var key = "NWEBZ-UBAWQ-ZYX5R-GHVNF-2DPG2-OSFB7"
-	var url = "https://apis.map.qq.com/ws/coord/v1/translate?locations=" + ipt + "&type=5&key="+ key
+	var oid = "10396"
+	var key = "10254xu8uy49xv04uz22w65xuwxv29u0z68463"
+	var url = "http://api.gpsspg.com/convert/coord/?oid=" + oid + "&key="+ key + "&from=3&to=1&output=json" + "&latlng=" + ipt
 	httpResp, err := http.Get(url)
 	if err != nil {
 		fmt.Println(err)
@@ -61,12 +65,16 @@ func BeginRun(ipt string) bool {
 	}
 	resp := new(Resp)
 	json.Unmarshal(bodyContent, resp)
+	fmt.Println(resp)
 	if (len(resp.Locations) <= 0) {
 		fmt.Println("data empty")
 		return false
 	}
-	latstr := strconv.FormatFloat(resp.Locations[0].Latitude, 'f', 10, 64)
-	lonstr := strconv.FormatFloat(resp.Locations[0].Longitude, 'f', 10, 64)
+
+	latstr := resp.Locations[0].Latitude
+	lonstr := resp.Locations[0].Longitude
+	// latstr := strconv.FormatFloat(resp.Locations[0].Latitude, 'f', 10, 64)
+	// lonstr := strconv.FormatFloat(resp.Locations[0].Longitude, 'f', 10, 64)
 	var result = "<wpt lat='" + latstr + "' lon='" + lonstr + "'></wpt>"
 	fmt.Println(result);
 	return true
