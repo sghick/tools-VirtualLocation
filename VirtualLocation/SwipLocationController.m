@@ -208,16 +208,14 @@
 }
 
 #pragma mark - Actions
+//- (void)applyButtonAction:(UIButton *)sender {
+//    self.curlocation = [self coordinate2DWithText:self.typeField.text];
+//    self.endlocation = [self coordinate2DWithText:self.typeEndField.text];
+//}
 
-- (void)applyButtonAction:(UIButton *)sender {
-    self.curlocation = [self coordinate2DWithText:self.typeField.text];
-    self.endlocation = [self coordinate2DWithText:self.typeEndField.text];
-}
-
-- (void)pauseButtonAction:(UIButton *)sender {
-//    (-16,-62)
+- (void)longTravButtonAction:(UIButton *)sender {
     // 长途飞行
-//    self.step = 0.35;
+    self.step = 0.35;
     _typeField.text = @"40.9856728490,117.9386186600"; // 方向的起点
     _curlocation = [self coordinate2DWithText:_typeField.text];
     _typeEndField.text = @"40.9856728490,117.9386186600";
@@ -225,15 +223,42 @@
     CLLocationCoordinate2D fromCoor = [self coordinate2DWithText:_typeField.text];
     CLLocationCoordinate2D toCoor = [self coordinate2DWithText:_typeEndField.text];
     [self newCoordinate2DFromCoor:fromCoor toCoor:toCoor];
-    return;
-    
+}
+
+- (void)shortTravButtonAction:(UIButton *)sender {
     // 短途旅游
     self.step = 0.0002;
     self.count = 1;
-    NSArray<NSString *> *points = @[@"41.5496680281,120.4782199860",
-                                    @"41.5373017892,120.4887342453",
-                                    @"41.5306519507,120.5094623566",
-                                    @"41.5373981586,120.5104923248",];
+    NSArray<NSString *> *points = @[@"30.2792673902,120.0866335630",
+                                    @"30.2802494951,120.0852495432",
+                                    @"30.2772660893,120.0862956047",
+                                    @"30.2785586008,120.0867998600",
+                                    @"30.2747597730,120.0882965326",
+                                    @"30.2754639570,120.0884681940",
+                                    @"30.2707106166,120.0901472569",
+                                    @"30.2686998750,120.0897181034",
+                                    @"30.2747783042,120.0882589817",
+                                    @"30.2728325065,120.0724983215",
+                                    @"30.2720310120,120.0735014677",
+                                    @"30.2734023513,120.0707709789",
+                                    @"30.2739119657,120.0717902184",
+                                    @"30.2722394939,120.0720638037",
+                                    @"30.2727583802,120.0687003136",
+                                    @"30.2723738486,120.0681370497",
+                                    @"30.2755288158,120.0665223598",
+                                    @"30.2758438437,120.0716078281",
+                                    @"30.2728695697,120.0672626495",
+                                    @"30.2773772737,120.0512552261",
+                                    @"30.2512454644,120.0479078293",
+                                    @"30.2515420346,120.0545597076",
+                                    @"30.2654427570,120.0476932526",
+                                    @"30.2552120164,120.0600528717",
+                                    @"30.2560646188,120.0553750992",
+                                    @"30.2648126335,120.0812959671",
+                                    @"30.2640713065,120.0600099564",
+                                    @"30.2784520503,120.0647735596",
+                                    @"30.2717808332,120.0896215439",
+                                    @"30.2799715419,120.0863170624",];
     NSString *begin = points.firstObject;
     NSString *end = begin;
     for (int i = 0; i < points.count; i++) {
@@ -306,8 +331,8 @@
 - (UIButton *)applyButton {
     if (!_applyButton) {
         _applyButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_applyButton addTarget:self action:@selector(applyButtonAction:) forControlEvents:UIControlEventTouchUpInside];
-        [_applyButton setTitle:@"<-应用坐标" forState:UIControlStateNormal];
+        [_applyButton addTarget:self action:@selector(longTravButtonAction:) forControlEvents:UIControlEventTouchUpInside];
+        [_applyButton setTitle:@"长途/定点计算" forState:UIControlStateNormal];
         [_applyButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _applyButton.backgroundColor = [UIColor smr_colorWithHexRGB:@"#BBBBBB"];
         _applyButton.layer.cornerRadius = 3;
@@ -320,8 +345,8 @@
 - (UIButton *)pauseButton {
     if (!_pauseButton) {
         _pauseButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_pauseButton addTarget:self action:@selector(pauseButtonAction:) forControlEvents:UIControlEventTouchUpInside];
-        [_pauseButton setTitle:@"计算路径" forState:UIControlStateNormal];
+        [_pauseButton addTarget:self action:@selector(shortTravButtonAction:) forControlEvents:UIControlEventTouchUpInside];
+        [_pauseButton setTitle:@"短途计算" forState:UIControlStateNormal];
         [_pauseButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _pauseButton.backgroundColor = [UIColor smr_colorWithHexRGB:@"#BBBBBB"];
         _pauseButton.layer.cornerRadius = 3;
