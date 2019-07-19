@@ -4,5 +4,18 @@
     xmlns="http://www.topografix.com/GPX/1/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-        <wpt lat='39.81375124366953' lon='116.2704448700148'></wpt>
+
+<!--金角小妖-->
+<!--世界公园-->
+<wpt lat='39.8120324810' lon='116.2825587814'></wpt>
+
+<!--风雪虎-->
+<!--世界公园-->
+<wpt lat='39.8132175728' lon='116.2785680444'></wpt>
+
+<!--白秋练-->
+<!--世界公园-->
+<wpt lat='39.8125393128' lon='116.2841734713'></wpt>
+
 </gpx>
+
