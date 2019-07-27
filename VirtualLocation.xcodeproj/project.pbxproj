@@ -30,10 +30,6 @@
 		FEA2BACB22A98781003C0FA4 /* 轨迹-西单大悦城2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA2BACA22A98781003C0FA4 /* 轨迹-西单大悦城2.gpx */; };
 		FEA2BACD22ACA64D003C0FA4 /* 轨迹-安阳.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA2BACC22ACA64D003C0FA4 /* 轨迹-安阳.gpx */; };
 		FEA51F8D229A0403006D9B19 /* xshd-西单.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA51F8C229A0403006D9B19 /* xshd-西单.gpx */; };
-		FEA51F98229A05C2006D9B19 /* dg-北海公园.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA51F8F229A05C2006D9B19 /* dg-北海公园.gpx */; };
-		FEA51F99229A05C2006D9B19 /* dg-科怡路.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA51F90229A05C2006D9B19 /* dg-科怡路.gpx */; };
-		FEA51F9A229A05C2006D9B19 /* dg-世界公园.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA51F91229A05C2006D9B19 /* dg-世界公园.gpx */; };
-		FEA51F9B229A05C2006D9B19 /* dg-西单.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA51F92229A05C2006D9B19 /* dg-西单.gpx */; };
 		FEA51F9C229A05C2006D9B19 /* lt-西单.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA51F94229A05C2006D9B19 /* lt-西单.gpx */; };
 		FEA51F9D229A05C2006D9B19 /* lt-科怡路.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA51F95229A05C2006D9B19 /* lt-科怡路.gpx */; };
 		FEA51F9E229A05C2006D9B19 /* lt-北海公园.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FEA51F96229A05C2006D9B19 /* lt-北海公园.gpx */; };
@@ -100,10 +96,6 @@
 		FEA2BACA22A98781003C0FA4 /* 轨迹-西单大悦城2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "轨迹-西单大悦城2.gpx"; sourceTree = "<group>"; };
 		FEA2BACC22ACA64D003C0FA4 /* 轨迹-安阳.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "轨迹-安阳.gpx"; sourceTree = "<group>"; };
 		FEA51F8C229A0403006D9B19 /* xshd-西单.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "xshd-西单.gpx"; sourceTree = "<group>"; };
-		FEA51F8F229A05C2006D9B19 /* dg-北海公园.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "dg-北海公园.gpx"; sourceTree = "<group>"; };
-		FEA51F90229A05C2006D9B19 /* dg-科怡路.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "dg-科怡路.gpx"; sourceTree = "<group>"; };
-		FEA51F91229A05C2006D9B19 /* dg-世界公园.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "dg-世界公园.gpx"; sourceTree = "<group>"; };
-		FEA51F92229A05C2006D9B19 /* dg-西单.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "dg-西单.gpx"; sourceTree = "<group>"; };
 		FEA51F94229A05C2006D9B19 /* lt-西单.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "lt-西单.gpx"; sourceTree = "<group>"; };
 		FEA51F95229A05C2006D9B19 /* lt-科怡路.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "lt-科怡路.gpx"; sourceTree = "<group>"; };
 		FEA51F96229A05C2006D9B19 /* lt-北海公园.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "lt-北海公园.gpx"; sourceTree = "<group>"; };
@@ -195,7 +187,6 @@
 				FED5B9DD22996EBB00432D01 /* 啊Ag轨迹.gpx */,
 				FE67109022A345E800258CEB /* 摊位.gpx */,
 				FE088B0022E0C97300CFB158 /* 专属 */,
-				FEA51F8E229A05C2006D9B19 /* 大鼓 */,
 				FEA51F93229A05C2006D9B19 /* 擂台 */,
 				FED5B9E322996EBB00432D01 /* 限时活动区 */,
 				FED5B9DB22996EBB00432D01 /* 轨迹 */,
@@ -243,18 +234,6 @@
 			);
 			name = "专属";
 			path = "locs/专属";
-			sourceTree = "<group>";
-		};
-		FEA51F8E229A05C2006D9B19 /* 大鼓 */ = {
-			isa = PBXGroup;
-			children = (
-				FEA51F8F229A05C2006D9B19 /* dg-北海公园.gpx */,
-				FEA51F90229A05C2006D9B19 /* dg-科怡路.gpx */,
-				FEA51F91229A05C2006D9B19 /* dg-世界公园.gpx */,
-				FEA51F92229A05C2006D9B19 /* dg-西单.gpx */,
-			);
-			name = "大鼓";
-			path = "locs/大鼓";
 			sourceTree = "<group>";
 		};
 		FEA51F93229A05C2006D9B19 /* 擂台 */ = {
@@ -405,7 +384,6 @@
 				FEA51F9E229A05C2006D9B19 /* lt-北海公园.gpx in Resources */,
 				FE32BCE622C6D5C500A3233B /* lt-承德.gpx in Resources */,
 				FE088B0422E0C97500CFB158 /* 西湖瓷偶娃娃.gpx in Resources */,
-				FEA51F99229A05C2006D9B19 /* dg-科怡路.gpx in Resources */,
 				FED5BA7722996EBC00432D01 /* 轨迹-西单大悦城.gpx in Resources */,
 				8A9B50622282B3D70031A092 /* LaunchScreen.storyboard in Resources */,
 				FEA51F9D229A05C2006D9B19 /* lt-科怡路.gpx in Resources */,
@@ -414,17 +392,14 @@
 				8A9B505F2282B3D70031A092 /* Assets.xcassets in Resources */,
 				FE49949722C27FCD0056BD78 /* fast_change.go in Resources */,
 				FED5BA7522996EBC00432D01 /* 啊Ag轨迹.gpx in Resources */,
-				FEA51F98229A05C2006D9B19 /* dg-北海公园.gpx in Resources */,
 				FE088B0A22E23B0F00CFB158 /* 稀有妖怪.gpx in Resources */,
 				FED5BA7C22996EBC00432D01 /* xshd-世界公园.gpx in Resources */,
 				FED5BA7E22996EBC00432D01 /* xshd-科怡路.gpx in Resources */,
 				FE32BCEA22C7C15F00A3233B /* 轨迹-杭州西溪公园.gpx in Resources */,
 				FE088B0822E23AC500CFB158 /* 世界公园木偶娃娃.gpx in Resources */,
-				FEA51F9A229A05C2006D9B19 /* dg-世界公园.gpx in Resources */,
 				FED5BA7A22996EBC00432D01 /* 轨迹-世界公园.gpx in Resources */,
 				FEA51F9C229A05C2006D9B19 /* lt-西单.gpx in Resources */,
 				FE67109122A345E800258CEB /* 摊位.gpx in Resources */,
-				FEA51F9B229A05C2006D9B19 /* dg-西单.gpx in Resources */,
 				FEA2BACD22ACA64D003C0FA4 /* 轨迹-安阳.gpx in Resources */,
 				FE49949522C254AB0056BD78 /* 轨迹-承德北.gpx in Resources */,
 				FEA51F9F229A05C2006D9B19 /* lt-世界公园.gpx in Resources */,
