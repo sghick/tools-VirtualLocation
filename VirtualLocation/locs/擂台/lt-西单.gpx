@@ -5,11 +5,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <!--西单商场-->
-<wpt lat='39.91118624478985' lon='116.368131041557'></wpt>
+<!--<wpt lat='39.91118624478985' lon='116.368131041557'></wpt>-->
 <!--汉光百货-->
 <!--<wpt lat='39.90798909508985' lon='116.368753314057'></wpt>-->
 <!--西单大悦城-->
-<!--<wpt lat='39.9094887347' lon='116.3667792238'></wpt>-->
+<wpt lat='39.9094887347' lon='116.3667792238'></wpt>
 <!--老佛爷百货-->
 <!--<wpt lat='39.91286088268984' lon='116.369112730057'></wpt>-->
 <!--北京图书大厦-->

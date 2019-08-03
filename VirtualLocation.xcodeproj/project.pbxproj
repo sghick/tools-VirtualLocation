@@ -19,8 +19,8 @@
 		FE088B0322E0C97500CFB158 /* 西湖木偶娃娃.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE088B0122E0C97400CFB158 /* 西湖木偶娃娃.gpx */; };
 		FE088B0422E0C97500CFB158 /* 西湖瓷偶娃娃.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE088B0222E0C97400CFB158 /* 西湖瓷偶娃娃.gpx */; };
 		FE088B0722E23AC500CFB158 /* 世界公园瓷偶娃娃.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE088B0522E23AC500CFB158 /* 世界公园瓷偶娃娃.gpx */; };
-		FE088B0822E23AC500CFB158 /* 世界公园木偶娃娃.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE088B0622E23AC500CFB158 /* 世界公园木偶娃娃.gpx */; };
 		FE088B0A22E23B0F00CFB158 /* 稀有妖怪.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE088B0922E23B0E00CFB158 /* 稀有妖怪.gpx */; };
+		FE12398422ECA5020038ED62 /* 世界公园木偶娃娃.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE12398322ECA5020038ED62 /* 世界公园木偶娃娃.gpx */; };
 		FE32BCE622C6D5C500A3233B /* lt-承德.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE32BCE522C6D5C500A3233B /* lt-承德.gpx */; };
 		FE32BCE922C7C15F00A3233B /* 轨迹-杭州西湖.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE32BCE722C7C15F00A3233B /* 轨迹-杭州西湖.gpx */; };
 		FE32BCEA22C7C15F00A3233B /* 轨迹-杭州西溪公园.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FE32BCE822C7C15F00A3233B /* 轨迹-杭州西溪公园.gpx */; };
@@ -85,8 +85,8 @@
 		FE088B0122E0C97400CFB158 /* 西湖木偶娃娃.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "西湖木偶娃娃.gpx"; sourceTree = "<group>"; };
 		FE088B0222E0C97400CFB158 /* 西湖瓷偶娃娃.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "西湖瓷偶娃娃.gpx"; sourceTree = "<group>"; };
 		FE088B0522E23AC500CFB158 /* 世界公园瓷偶娃娃.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园瓷偶娃娃.gpx"; sourceTree = "<group>"; };
-		FE088B0622E23AC500CFB158 /* 世界公园木偶娃娃.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园木偶娃娃.gpx"; sourceTree = "<group>"; };
 		FE088B0922E23B0E00CFB158 /* 稀有妖怪.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "稀有妖怪.gpx"; sourceTree = "<group>"; };
+		FE12398322ECA5020038ED62 /* 世界公园木偶娃娃.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "世界公园木偶娃娃.gpx"; sourceTree = "<group>"; };
 		FE32BCE522C6D5C500A3233B /* lt-承德.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "lt-承德.gpx"; sourceTree = "<group>"; };
 		FE32BCE722C7C15F00A3233B /* 轨迹-杭州西湖.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "轨迹-杭州西湖.gpx"; sourceTree = "<group>"; };
 		FE32BCE822C7C15F00A3233B /* 轨迹-杭州西溪公园.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "轨迹-杭州西溪公园.gpx"; sourceTree = "<group>"; };
@@ -228,7 +228,7 @@
 			children = (
 				FE088B0922E23B0E00CFB158 /* 稀有妖怪.gpx */,
 				FE088B0522E23AC500CFB158 /* 世界公园瓷偶娃娃.gpx */,
-				FE088B0622E23AC500CFB158 /* 世界公园木偶娃娃.gpx */,
+				FE12398322ECA5020038ED62 /* 世界公园木偶娃娃.gpx */,
 				FE088B0122E0C97400CFB158 /* 西湖木偶娃娃.gpx */,
 				FE088B0222E0C97400CFB158 /* 西湖瓷偶娃娃.gpx */,
 			);
@@ -389,6 +389,7 @@
 				FEA51F9D229A05C2006D9B19 /* lt-科怡路.gpx in Resources */,
 				FE088B0722E23AC500CFB158 /* 世界公园瓷偶娃娃.gpx in Resources */,
 				FEA2BACB22A98781003C0FA4 /* 轨迹-西单大悦城2.gpx in Resources */,
+				FE12398422ECA5020038ED62 /* 世界公园木偶娃娃.gpx in Resources */,
 				8A9B505F2282B3D70031A092 /* Assets.xcassets in Resources */,
 				FE49949722C27FCD0056BD78 /* fast_change.go in Resources */,
 				FED5BA7522996EBC00432D01 /* 啊Ag轨迹.gpx in Resources */,
@@ -396,7 +397,6 @@
 				FED5BA7C22996EBC00432D01 /* xshd-世界公园.gpx in Resources */,
 				FED5BA7E22996EBC00432D01 /* xshd-科怡路.gpx in Resources */,
 				FE32BCEA22C7C15F00A3233B /* 轨迹-杭州西溪公园.gpx in Resources */,
-				FE088B0822E23AC500CFB158 /* 世界公园木偶娃娃.gpx in Resources */,
 				FED5BA7A22996EBC00432D01 /* 轨迹-世界公园.gpx in Resources */,
 				FEA51F9C229A05C2006D9B19 /* lt-西单.gpx in Resources */,
 				FE67109122A345E800258CEB /* 摊位.gpx in Resources */,
