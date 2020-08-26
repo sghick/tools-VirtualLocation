@@ -5,9 +5,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 
-    <wpt lat='39.8098814947' lon='116.2856862372'></wpt>
+<!--    <wpt lat='39.8098814947' lon='116.2856862372'></wpt>-->
 <!--    <wpt lat='39.8094859037' lon='116.2856916016'></wpt>-->
-<!--    <wpt lat='39.8072029693' lon='116.2865713661'></wpt>-->
+    <wpt lat='39.8072029693' lon='116.2865713661'></wpt>
 <!--    <wpt lat='39.8052001883' lon='116.2838730639'></wpt>-->
 <!--    <wpt lat='39.8065930751' lon='116.2835780209'></wpt>-->
 <!--    <wpt lat='39.8091191558' lon='116.2823120182'></wpt>-->
